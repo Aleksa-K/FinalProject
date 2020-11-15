@@ -2,8 +2,7 @@ package finalProject.pages;
 
 import org.openqa.selenium.By;
 
-import static com.codeborne.selenide.Selenide.$;
-import static com.codeborne.selenide.Selenide.sleep;
+import static com.codeborne.selenide.Selenide.*;
 
 public class HomePage {
 
@@ -13,7 +12,8 @@ public class HomePage {
 
     public void pressSearchButton() {
         $(By.xpath("//div[@class='main-search__submit']")).submit();
-        sleep(5000);
+        sleep(3000);
+
 
     }
 }

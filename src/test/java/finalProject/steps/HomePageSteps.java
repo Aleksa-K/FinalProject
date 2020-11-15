@@ -10,7 +10,7 @@ public class HomePageSteps {
 
     @When("^Enter data to the search field$")
     public void enterDataToTheSearchField() {
-        homePage.searchField("samsung tv");
+        homePage.searchField("clock");
     }
 
     @And("^Press search button$")
