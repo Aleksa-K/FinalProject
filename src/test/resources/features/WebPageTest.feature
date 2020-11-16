@@ -9,6 +9,8 @@
     Scenario: Search a product
       When Enter data to the search field
       And  Press search button
+      And Choose a product brand
+      And Choose TOP product
       Then Select a product and click on it
       And Add a product to the cart
       And Go to the cart

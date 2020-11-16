@@ -2,19 +2,22 @@ package finalProject.pages;
 
 import org.openqa.selenium.By;
 
+import java.lang.module.Configuration;
+
 import static com.codeborne.selenide.Selenide.*;
 
 public class ProductPage {
 
     public void addProductToTheCart() {
-        $(By.name("product[quantity]")).scrollTo();
-        $(By.id("add_to_cart_btn")).click();
+        $(By.xpath("//button[@class='button icon-cart wider']")).scrollTo().click();
+        sleep(2000);
+
 
     }
 
     public void goToCart() {
         $(By.linkText("Pārlūkot pirkumu grozu")).click();
-        sleep(3000);
+        sleep(1000);
 
     }
 }

@@ -12,7 +12,7 @@ public class HomePage {
 
     public void pressSearchButton() {
         $(By.xpath("//div[@class='main-search__submit']")).submit();
-        sleep(3000);
+        sleep(1000);
 
 
     }

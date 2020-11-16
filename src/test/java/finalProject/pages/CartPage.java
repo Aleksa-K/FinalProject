@@ -8,7 +8,7 @@ import static com.codeborne.selenide.Selenide.sleep;
 public class CartPage {
 
     public void acceptPurchase(){
-        $(By.xpath("//input[@class='main-button cart-main-button cart-main-button--large']")).scrollTo().click();
+        $(By.xpath("//input[@name='commit']")).scrollTo().submit();
         sleep(3000);
     }
 }
