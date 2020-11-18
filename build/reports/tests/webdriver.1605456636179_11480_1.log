@@ -1,0 +1,436 @@
+[1605456636.522][INFO]: Starting ChromeDriver 86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}) on port 37709
+[1605456636.522][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1605456637.319][INFO]: [03ec15a4134517935fa8f4fcbe35983c] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--no-sandbox" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "C:\\Users\\Windows\\IdeaProjects\\FinalProject\\build\\downloads\\1605456635387_11480_1",
+               "plugins.always_open_pdf_externally": true
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--no-sandbox" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "C:\\Users\\Windows\\IdeaProjects\\FinalProject\\build\\downloads\\1605456635387_11480_1",
+            "plugins.always_open_pdf_externally": true
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1605456637.327][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "C:\\Users\\Windows\\IdeaProjects\\FinalProject\\build\\downloads\\1605456635387_11480_1"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1605456637.327][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1605456637.328][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --no-sandbox --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\Windows\AppData\Local\Temp\scoped_dir11876_1318302379" data:,
+[1605456638.008][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1605456640.047][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1605456642.091][INFO]: [03ec15a4134517935fa8f4fcbe35983c] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "86.0.4240.193",
+      "chrome": {
+         "chromedriverVersion": "86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378})",
+         "userDataDir": "C:\\Users\\Windows\\AppData\\Local\\Temp\\scoped_dir11876_1318302379"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:57138"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "03ec15a4134517935fa8f4fcbe35983c"
+}
+[1605456642.174][INFO]: [03ec15a4134517935fa8f4fcbe35983c] COMMAND SetWindowRect {
+   "height": 768,
+   "width": 1366
+}
+[1605456642.174][INFO]: Waiting for pending navigations...
+[1605456642.179][INFO]: Done waiting for pending navigations. Status: ok
+[1605456642.302][INFO]: Waiting for pending navigations...
+[1605456642.303][INFO]: Done waiting for pending navigations. Status: ok
+[1605456642.303][INFO]: [03ec15a4134517935fa8f4fcbe35983c] RESPONSE SetWindowRect {
+   "height": 770,
+   "width": 1368,
+   "x": 8,
+   "y": 8
+}
+[1605456642.314][INFO]: [03ec15a4134517935fa8f4fcbe35983c] COMMAND SetTimeouts {
+   "pageLoad": 30000
+}
+[1605456642.314][INFO]: [03ec15a4134517935fa8f4fcbe35983c] RESPONSE SetTimeouts
+[1605456642.334][INFO]: [03ec15a4134517935fa8f4fcbe35983c] COMMAND Navigate {
+   "url": "https://www.1a.lv/"
+}
+[1605456642.334][INFO]: Waiting for pending navigations...
+[1605456642.335][INFO]: Done waiting for pending navigations. Status: ok
+[1605456642.762][INFO]: Waiting for pending navigations...
+[1605456644.555][INFO]: Done waiting for pending navigations. Status: ok
+[1605456644.555][INFO]: [03ec15a4134517935fa8f4fcbe35983c] RESPONSE Navigate
+[1605456644.613][INFO]: [03ec15a4134517935fa8f4fcbe35983c] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//input[@class='sn-suggest-input autocomplete main-search-input']"
+}
+[1605456644.613][INFO]: Waiting for pending navigations...
+[1605456644.614][INFO]: Done waiting for pending navigations. Status: ok
+[1605456644.638][INFO]: Waiting for pending navigations...
+[1605456644.639][INFO]: Done waiting for pending navigations. Status: ok
+[1605456644.639][INFO]: [03ec15a4134517935fa8f4fcbe35983c] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "9b91f223-b0a1-43cf-9926-1c2f65097257"
+}
+[1605456644.652][INFO]: [03ec15a4134517935fa8f4fcbe35983c] COMMAND TypeElement {
+   "id": "9b91f223-b0a1-43cf-9926-1c2f65097257",
+   "text": "samsung tv",
+   "value": [ "s", "a", "m", "s", "u", "n", "g", " ", "t", "v" ]
+}
+[1605456644.652][INFO]: Waiting for pending navigations...
+[1605456644.653][INFO]: Done waiting for pending navigations. Status: ok
+[1605456645.038][INFO]: Waiting for pending navigations...
+[1605456645.052][INFO]: Done waiting for pending navigations. Status: ok
+[1605456645.052][INFO]: [03ec15a4134517935fa8f4fcbe35983c] RESPONSE TypeElement
+[1605456645.059][INFO]: [03ec15a4134517935fa8f4fcbe35983c] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@class='main-search__submit']"
+}
+[1605456645.059][INFO]: Waiting for pending navigations...
+[1605456645.061][INFO]: Done waiting for pending navigations. Status: ok
+[1605456645.089][INFO]: Waiting for pending navigations...
+[1605456645.092][INFO]: Done waiting for pending navigations. Status: ok
+[1605456645.092][INFO]: [03ec15a4134517935fa8f4fcbe35983c] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "49702113-957d-4357-a917-0942fa868db6"
+}
+[1605456645.100][INFO]: [03ec15a4134517935fa8f4fcbe35983c] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "49702113-957d-4357-a917-0942fa868db6"
+   } ],
+   "script": "var form = arguments[0];\nwhile (form.nodeName != \"FORM\" && form.parentNode) {\n  form = form.parentNode;\n}\nif (!form) { throw Error('Unable to find containing form element'); }\nif (!form.ownerDocument) { throw Error('Unable to find owning document'); }\nvar e = form.ownerDocument.createEvent('Event');\ne.initEvent('submit', true, true);\nif (form.dispatchEvent(e)) { HTMLFormElement.prototype.submit.call(form) }\n"
+}
+[1605456645.100][INFO]: Waiting for pending navigations...
+[1605456645.111][INFO]: Done waiting for pending navigations. Status: ok
+[1605456645.178][INFO]: Waiting for pending navigations...
+[1605456645.193][INFO]: Done waiting for pending navigations. Status: ok
+[1605456645.193][INFO]: [03ec15a4134517935fa8f4fcbe35983c] RESPONSE ExecuteScript null
+[1605456650.254][INFO]: [03ec15a4134517935fa8f4fcbe35983c] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@class='new-product-item catalog-taxons-product']"
+}
+[1605456650.258][INFO]: Waiting for pending navigations...
+[1605456650.259][INFO]: Done waiting for pending navigations. Status: ok
+[1605456650.301][INFO]: Waiting for pending navigations...
+[1605456650.303][INFO]: Done waiting for pending navigations. Status: ok
+[1605456650.303][INFO]: [03ec15a4134517935fa8f4fcbe35983c] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "a6574dad-6ffe-42da-a4dc-872f56a4fdf9"
+}
+[1605456650.308][INFO]: [03ec15a4134517935fa8f4fcbe35983c] COMMAND GetElementRect {
+   "id": "a6574dad-6ffe-42da-a4dc-872f56a4fdf9"
+}
+[1605456650.308][INFO]: Waiting for pending navigations...
+[1605456650.312][INFO]: Done waiting for pending navigations. Status: ok
+[1605456650.339][INFO]: Waiting for pending navigations...
+[1605456650.340][INFO]: Done waiting for pending navigations. Status: ok
+[1605456650.340][INFO]: [03ec15a4134517935fa8f4fcbe35983c] RESPONSE GetElementRect {
+   "height": 602.0,
+   "width": 240.0,
+   "x": 347.6000061035156,
+   "y": 752.2000122070312
+}
+[1605456650.349][INFO]: [03ec15a4134517935fa8f4fcbe35983c] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "window.scrollTo(347, 752)"
+}
+[1605456650.349][INFO]: Waiting for pending navigations...
+[1605456650.351][INFO]: Done waiting for pending navigations. Status: ok
+[1605456650.360][INFO]: Waiting for pending navigations...
+[1605456650.361][INFO]: Done waiting for pending navigations. Status: ok
+[1605456650.361][INFO]: [03ec15a4134517935fa8f4fcbe35983c] RESPONSE ExecuteScript null
+[1605456655.377][INFO]: [03ec15a4134517935fa8f4fcbe35983c] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='Televizors Samsung UE55TU7072UXXH']"
+}
+[1605456655.377][INFO]: Waiting for pending navigations...
+[1605456655.380][INFO]: Done waiting for pending navigations. Status: ok
+[1605456655.425][INFO]: Waiting for pending navigations...
+[1605456655.427][INFO]: Done waiting for pending navigations. Status: ok
+[1605456655.427][INFO]: [03ec15a4134517935fa8f4fcbe35983c] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"*[name='Televizors Samsung UE55TU7072UXXH']"}
+  (Session info: chrome=86.0.4240.193)
+[1605456655.688][INFO]: [03ec15a4134517935fa8f4fcbe35983c] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='Televizors Samsung UE55TU7072UXXH']"
+}
+[1605456655.688][INFO]: Waiting for pending navigations...
+[1605456655.691][INFO]: Done waiting for pending navigations. Status: ok
+[1605456655.708][INFO]: Waiting for pending navigations...
+[1605456655.710][INFO]: Done waiting for pending navigations. Status: ok
+[1605456655.710][INFO]: [03ec15a4134517935fa8f4fcbe35983c] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"*[name='Televizors Samsung UE55TU7072UXXH']"}
+  (Session info: chrome=86.0.4240.193)
+[1605456655.936][INFO]: [03ec15a4134517935fa8f4fcbe35983c] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='Televizors Samsung UE55TU7072UXXH']"
+}
+[1605456655.936][INFO]: Waiting for pending navigations...
+[1605456655.938][INFO]: Done waiting for pending navigations. Status: ok
+[1605456655.955][INFO]: Waiting for pending navigations...
+[1605456655.957][INFO]: Done waiting for pending navigations. Status: ok
+[1605456655.958][INFO]: [03ec15a4134517935fa8f4fcbe35983c] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"*[name='Televizors Samsung UE55TU7072UXXH']"}
+  (Session info: chrome=86.0.4240.193)
+[1605456656.180][INFO]: [03ec15a4134517935fa8f4fcbe35983c] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='Televizors Samsung UE55TU7072UXXH']"
+}
+[1605456656.181][INFO]: Waiting for pending navigations...
+[1605456656.184][INFO]: Done waiting for pending navigations. Status: ok
+[1605456656.201][INFO]: Waiting for pending navigations...
+[1605456656.203][INFO]: Done waiting for pending navigations. Status: ok
+[1605456656.203][INFO]: [03ec15a4134517935fa8f4fcbe35983c] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"*[name='Televizors Samsung UE55TU7072UXXH']"}
+  (Session info: chrome=86.0.4240.193)
+[1605456656.428][INFO]: [03ec15a4134517935fa8f4fcbe35983c] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='Televizors Samsung UE55TU7072UXXH']"
+}
+[1605456656.428][INFO]: Waiting for pending navigations...
+[1605456656.431][INFO]: Done waiting for pending navigations. Status: ok
+[1605456656.448][INFO]: Waiting for pending navigations...
+[1605456656.450][INFO]: Done waiting for pending navigations. Status: ok
+[1605456656.450][INFO]: [03ec15a4134517935fa8f4fcbe35983c] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"*[name='Televizors Samsung UE55TU7072UXXH']"}
+  (Session info: chrome=86.0.4240.193)
+[1605456656.675][INFO]: [03ec15a4134517935fa8f4fcbe35983c] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='Televizors Samsung UE55TU7072UXXH']"
+}
+[1605456656.675][INFO]: Waiting for pending navigations...
+[1605456656.678][INFO]: Done waiting for pending navigations. Status: ok
+[1605456656.695][INFO]: Waiting for pending navigations...
+[1605456656.698][INFO]: Done waiting for pending navigations. Status: ok
+[1605456656.698][INFO]: [03ec15a4134517935fa8f4fcbe35983c] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"*[name='Televizors Samsung UE55TU7072UXXH']"}
+  (Session info: chrome=86.0.4240.193)
+[1605456656.922][INFO]: [03ec15a4134517935fa8f4fcbe35983c] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='Televizors Samsung UE55TU7072UXXH']"
+}
+[1605456656.922][INFO]: Waiting for pending navigations...
+[1605456656.924][INFO]: Done waiting for pending navigations. Status: ok
+[1605456656.941][INFO]: Waiting for pending navigations...
+[1605456656.944][INFO]: Done waiting for pending navigations. Status: ok
+[1605456656.944][INFO]: [03ec15a4134517935fa8f4fcbe35983c] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"*[name='Televizors Samsung UE55TU7072UXXH']"}
+  (Session info: chrome=86.0.4240.193)
+[1605456657.176][INFO]: [03ec15a4134517935fa8f4fcbe35983c] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='Televizors Samsung UE55TU7072UXXH']"
+}
+[1605456657.176][INFO]: Waiting for pending navigations...
+[1605456657.178][INFO]: Done waiting for pending navigations. Status: ok
+[1605456657.196][INFO]: Waiting for pending navigations...
+[1605456657.198][INFO]: Done waiting for pending navigations. Status: ok
+[1605456657.198][INFO]: [03ec15a4134517935fa8f4fcbe35983c] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"*[name='Televizors Samsung UE55TU7072UXXH']"}
+  (Session info: chrome=86.0.4240.193)
+[1605456657.416][INFO]: [03ec15a4134517935fa8f4fcbe35983c] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='Televizors Samsung UE55TU7072UXXH']"
+}
+[1605456657.416][INFO]: Waiting for pending navigations...
+[1605456657.419][INFO]: Done waiting for pending navigations. Status: ok
+[1605456657.436][INFO]: Waiting for pending navigations...
+[1605456657.439][INFO]: Done waiting for pending navigations. Status: ok
+[1605456657.439][INFO]: [03ec15a4134517935fa8f4fcbe35983c] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"*[name='Televizors Samsung UE55TU7072UXXH']"}
+  (Session info: chrome=86.0.4240.193)
+[1605456657.658][INFO]: [03ec15a4134517935fa8f4fcbe35983c] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='Televizors Samsung UE55TU7072UXXH']"
+}
+[1605456657.658][INFO]: Waiting for pending navigations...
+[1605456657.661][INFO]: Done waiting for pending navigations. Status: ok
+[1605456657.678][INFO]: Waiting for pending navigations...
+[1605456657.680][INFO]: Done waiting for pending navigations. Status: ok
+[1605456657.680][INFO]: [03ec15a4134517935fa8f4fcbe35983c] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"*[name='Televizors Samsung UE55TU7072UXXH']"}
+  (Session info: chrome=86.0.4240.193)
+[1605456657.901][INFO]: [03ec15a4134517935fa8f4fcbe35983c] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='Televizors Samsung UE55TU7072UXXH']"
+}
+[1605456657.901][INFO]: Waiting for pending navigations...
+[1605456657.904][INFO]: Done waiting for pending navigations. Status: ok
+[1605456657.921][INFO]: Waiting for pending navigations...
+[1605456657.923][INFO]: Done waiting for pending navigations. Status: ok
+[1605456657.924][INFO]: [03ec15a4134517935fa8f4fcbe35983c] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"*[name='Televizors Samsung UE55TU7072UXXH']"}
+  (Session info: chrome=86.0.4240.193)
+[1605456658.141][INFO]: [03ec15a4134517935fa8f4fcbe35983c] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='Televizors Samsung UE55TU7072UXXH']"
+}
+[1605456658.141][INFO]: Waiting for pending navigations...
+[1605456658.143][INFO]: Done waiting for pending navigations. Status: ok
+[1605456658.160][INFO]: Waiting for pending navigations...
+[1605456658.162][INFO]: Done waiting for pending navigations. Status: ok
+[1605456658.163][INFO]: [03ec15a4134517935fa8f4fcbe35983c] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"*[name='Televizors Samsung UE55TU7072UXXH']"}
+  (Session info: chrome=86.0.4240.193)
+[1605456658.384][INFO]: [03ec15a4134517935fa8f4fcbe35983c] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='Televizors Samsung UE55TU7072UXXH']"
+}
+[1605456658.384][INFO]: Waiting for pending navigations...
+[1605456658.386][INFO]: Done waiting for pending navigations. Status: ok
+[1605456658.403][INFO]: Waiting for pending navigations...
+[1605456658.405][INFO]: Done waiting for pending navigations. Status: ok
+[1605456658.406][INFO]: [03ec15a4134517935fa8f4fcbe35983c] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"*[name='Televizors Samsung UE55TU7072UXXH']"}
+  (Session info: chrome=86.0.4240.193)
+[1605456658.628][INFO]: [03ec15a4134517935fa8f4fcbe35983c] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='Televizors Samsung UE55TU7072UXXH']"
+}
+[1605456658.628][INFO]: Waiting for pending navigations...
+[1605456658.631][INFO]: Done waiting for pending navigations. Status: ok
+[1605456658.648][INFO]: Waiting for pending navigations...
+[1605456658.651][INFO]: Done waiting for pending navigations. Status: ok
+[1605456658.651][INFO]: [03ec15a4134517935fa8f4fcbe35983c] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"*[name='Televizors Samsung UE55TU7072UXXH']"}
+  (Session info: chrome=86.0.4240.193)
+[1605456658.867][INFO]: [03ec15a4134517935fa8f4fcbe35983c] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='Televizors Samsung UE55TU7072UXXH']"
+}
+[1605456658.867][INFO]: Waiting for pending navigations...
+[1605456658.871][INFO]: Done waiting for pending navigations. Status: ok
+[1605456658.888][INFO]: Waiting for pending navigations...
+[1605456658.890][INFO]: Done waiting for pending navigations. Status: ok
+[1605456658.890][INFO]: [03ec15a4134517935fa8f4fcbe35983c] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"*[name='Televizors Samsung UE55TU7072UXXH']"}
+  (Session info: chrome=86.0.4240.193)
+[1605456659.122][INFO]: [03ec15a4134517935fa8f4fcbe35983c] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='Televizors Samsung UE55TU7072UXXH']"
+}
+[1605456659.122][INFO]: Waiting for pending navigations...
+[1605456659.125][INFO]: Done waiting for pending navigations. Status: ok
+[1605456659.142][INFO]: Waiting for pending navigations...
+[1605456659.144][INFO]: Done waiting for pending navigations. Status: ok
+[1605456659.144][INFO]: [03ec15a4134517935fa8f4fcbe35983c] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"*[name='Televizors Samsung UE55TU7072UXXH']"}
+  (Session info: chrome=86.0.4240.193)
+[1605456659.374][INFO]: [03ec15a4134517935fa8f4fcbe35983c] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='Televizors Samsung UE55TU7072UXXH']"
+}
+[1605456659.374][INFO]: Waiting for pending navigations...
+[1605456659.377][INFO]: Done waiting for pending navigations. Status: ok
+[1605456659.394][INFO]: Waiting for pending navigations...
+[1605456659.397][INFO]: Done waiting for pending navigations. Status: ok
+[1605456659.397][INFO]: [03ec15a4134517935fa8f4fcbe35983c] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"*[name='Televizors Samsung UE55TU7072UXXH']"}
+  (Session info: chrome=86.0.4240.193)
+[1605456659.625][INFO]: [03ec15a4134517935fa8f4fcbe35983c] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var source = document.documentElement.outerHTML; \nif (!source) { source = new XMLSerializer().serializeToString(document); }\nreturn source;"
+}
+[1605456659.626][INFO]: Waiting for pending navigations...
+[1605456659.628][INFO]: Done waiting for pending navigations. Status: ok
+[1605456659.762][INFO]: Waiting for pending navigations...
+[1605456659.763][INFO]: Done waiting for pending navigations. Status: ok
+[1605456659.763][INFO]: [03ec15a4134517935fa8f4fcbe35983c] RESPONSE ExecuteScript "\u003Chtml default-lang=\"lv\" lang=\"lv\" class=\" no-touch\">\u003Chead>\n\u003Cmeta theme=\"1a\">\n\u003Cmeta charset=\"utf-8\">\n\u003Cmeta content=\"IE=edge\" http-equiv=\"X-UA-Compatible\">\n\u003Cscript type=\"text/javascript\" async=\"\" src..."
+[1605456660.042][INFO]: [03ec15a4134517935fa8f4fcbe35983c] COMMAND Screenshot {
+
+}
+[1605456660.043][INFO]: Waiting for pending navigations...
+[1605456660.044][INFO]: Done waiting for pending navigations. Status: ok
+[1605456660.511][INFO]: Waiting for pending navigations...
+[1605456660.513][INFO]: Done waiting for pending navigations. Status: ok
+[1605456660.513][INFO]: [03ec15a4134517935fa8f4fcbe35983c] RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAABpoAAANVCAYAAABoHC2oAAAAAXNSR0IArs4c6QAAIABJREFUeJzs3XlcVXX++PHXuRtw4SKrLAJxhXDNBdxN3HOlzMrSmmlxBu3btJjWTI/vlFoz1ZTWNH2blKZpMdOyNNPSzNz3RM0NxQUXlH2HC3f//cGPkwgqKojp+/l4+Kh77..."
+[1605456660.712][INFO]: [03ec15a4134517935fa8f4fcbe35983c] COMMAND Quit {
+
+}
+[1605456660.817][INFO]: [03ec15a4134517935fa8f4fcbe35983c] RESPONSE Quit

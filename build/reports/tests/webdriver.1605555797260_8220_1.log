@@ -1,0 +1,435 @@
+[1605555797.416][INFO]: Starting ChromeDriver 86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}) on port 21289
+[1605555797.416][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1605555798.074][INFO]: [52d79aed1eafb0637e89f5e97090f2fb] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--no-sandbox" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "C:\\Users\\Windows\\IdeaProjects\\FinalProject\\build\\downloads\\1605555796576_8220_1",
+               "plugins.always_open_pdf_externally": true
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--no-sandbox" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "C:\\Users\\Windows\\IdeaProjects\\FinalProject\\build\\downloads\\1605555796576_8220_1",
+            "plugins.always_open_pdf_externally": true
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1605555798.080][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "C:\\Users\\Windows\\IdeaProjects\\FinalProject\\build\\downloads\\1605555796576_8220_1"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1605555798.080][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1605555798.081][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --no-sandbox --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\Windows\AppData\Local\Temp\scoped_dir3352_275584458" data:,
+[1605555798.630][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1605555800.652][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1605555802.682][INFO]: [52d79aed1eafb0637e89f5e97090f2fb] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "86.0.4240.193",
+      "chrome": {
+         "chromedriverVersion": "86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378})",
+         "userDataDir": "C:\\Users\\Windows\\AppData\\Local\\Temp\\scoped_dir3352_275584458"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:50308"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "52d79aed1eafb0637e89f5e97090f2fb"
+}
+[1605555802.712][INFO]: [52d79aed1eafb0637e89f5e97090f2fb] COMMAND SetWindowRect {
+   "height": 768,
+   "width": 1366
+}
+[1605555802.712][INFO]: Waiting for pending navigations...
+[1605555802.715][INFO]: Done waiting for pending navigations. Status: ok
+[1605555802.833][INFO]: Waiting for pending navigations...
+[1605555802.834][INFO]: Done waiting for pending navigations. Status: ok
+[1605555802.834][INFO]: [52d79aed1eafb0637e89f5e97090f2fb] RESPONSE SetWindowRect {
+   "height": 770,
+   "width": 1368,
+   "x": 8,
+   "y": 8
+}
+[1605555802.839][INFO]: [52d79aed1eafb0637e89f5e97090f2fb] COMMAND SetTimeouts {
+   "pageLoad": 30000
+}
+[1605555802.839][INFO]: [52d79aed1eafb0637e89f5e97090f2fb] RESPONSE SetTimeouts
+[1605555802.846][INFO]: [52d79aed1eafb0637e89f5e97090f2fb] COMMAND Navigate {
+   "url": "https://www.1a.lv/"
+}
+[1605555802.846][INFO]: Waiting for pending navigations...
+[1605555802.847][INFO]: Done waiting for pending navigations. Status: ok
+[1605555803.088][INFO]: Waiting for pending navigations...
+[1605555804.865][INFO]: Done waiting for pending navigations. Status: ok
+[1605555804.865][INFO]: [52d79aed1eafb0637e89f5e97090f2fb] RESPONSE Navigate
+[1605555804.869][INFO]: [52d79aed1eafb0637e89f5e97090f2fb] COMMAND MaximizeWindow {
+
+}
+[1605555804.869][INFO]: Waiting for pending navigations...
+[1605555804.873][INFO]: Done waiting for pending navigations. Status: ok
+[1605555804.995][INFO]: Waiting for pending navigations...
+[1605555805.007][INFO]: Done waiting for pending navigations. Status: ok
+[1605555805.007][INFO]: [52d79aed1eafb0637e89f5e97090f2fb] RESPONSE MaximizeWindow {
+   "height": 840,
+   "width": 1552,
+   "x": -8,
+   "y": -8
+}
+[1605555805.058][INFO]: [52d79aed1eafb0637e89f5e97090f2fb] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//input[@class='sn-suggest-input autocomplete main-search-input']"
+}
+[1605555805.071][INFO]: Waiting for pending navigations...
+[1605555805.072][INFO]: Done waiting for pending navigations. Status: ok
+[1605555805.098][INFO]: Waiting for pending navigations...
+[1605555805.106][INFO]: Done waiting for pending navigations. Status: ok
+[1605555805.106][INFO]: [52d79aed1eafb0637e89f5e97090f2fb] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "9cc81d80-5901-472d-969f-b1eef7392856"
+}
+[1605555805.114][INFO]: [52d79aed1eafb0637e89f5e97090f2fb] COMMAND TypeElement {
+   "id": "9cc81d80-5901-472d-969f-b1eef7392856",
+   "text": "watch",
+   "value": [ "w", "a", "t", "c", "h" ]
+}
+[1605555805.114][INFO]: Waiting for pending navigations...
+[1605555805.119][INFO]: Done waiting for pending navigations. Status: ok
+[1605555805.223][INFO]: Waiting for pending navigations...
+[1605555805.231][INFO]: Done waiting for pending navigations. Status: ok
+[1605555805.231][INFO]: [52d79aed1eafb0637e89f5e97090f2fb] RESPONSE TypeElement
+[1605555805.236][INFO]: [52d79aed1eafb0637e89f5e97090f2fb] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@class='main-search__submit']"
+}
+[1605555805.236][INFO]: Waiting for pending navigations...
+[1605555805.236][INFO]: Done waiting for pending navigations. Status: ok
+[1605555805.253][INFO]: Waiting for pending navigations...
+[1605555805.256][INFO]: Done waiting for pending navigations. Status: ok
+[1605555805.256][INFO]: [52d79aed1eafb0637e89f5e97090f2fb] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "b3c7fafa-0afe-4b7a-b21f-9d58ffc628c3"
+}
+[1605555805.261][INFO]: [52d79aed1eafb0637e89f5e97090f2fb] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "b3c7fafa-0afe-4b7a-b21f-9d58ffc628c3"
+   } ],
+   "script": "var form = arguments[0];\nwhile (form.nodeName != \"FORM\" && form.parentNode) {\n  form = form.parentNode;\n}\nif (!form) { throw Error('Unable to find containing form element'); }\nif (!form.ownerDocument) { throw Error('Unable to find owning document'); }\nvar e = form.ownerDocument.createEvent('Event');\ne.initEvent('submit', true, true);\nif (form.dispatchEvent(e)) { HTMLFormElement.prototype.submit.call(form) }\n"
+}
+[1605555805.261][INFO]: Waiting for pending navigations...
+[1605555805.261][INFO]: Done waiting for pending navigations. Status: ok
+[1605555805.313][INFO]: Waiting for pending navigations...
+[1605555805.326][INFO]: Done waiting for pending navigations. Status: ok
+[1605555805.326][INFO]: [52d79aed1eafb0637e89f5e97090f2fb] RESPONSE ExecuteScript null
+[1605555806.354][INFO]: [52d79aed1eafb0637e89f5e97090f2fb] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@class='filter-block filter-block-collapse active']"
+}
+[1605555806.355][INFO]: Waiting for pending navigations...
+[1605555806.385][INFO]: Done waiting for pending navigations. Status: ok
+[1605555806.401][INFO]: Waiting for pending navigations...
+[1605555806.402][INFO]: Done waiting for pending navigations. Status: ok
+[1605555806.402][INFO]: [52d79aed1eafb0637e89f5e97090f2fb] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='filter-block filter-block-collapse active']"}
+  (Session info: chrome=86.0.4240.193)
+[1605555806.620][INFO]: [52d79aed1eafb0637e89f5e97090f2fb] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@class='filter-block filter-block-collapse active']"
+}
+[1605555806.622][INFO]: Waiting for pending navigations...
+[1605555806.623][INFO]: Done waiting for pending navigations. Status: ok
+[1605555806.639][INFO]: Waiting for pending navigations...
+[1605555806.640][INFO]: Done waiting for pending navigations. Status: ok
+[1605555806.640][INFO]: [52d79aed1eafb0637e89f5e97090f2fb] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='filter-block filter-block-collapse active']"}
+  (Session info: chrome=86.0.4240.193)
+[1605555806.855][INFO]: [52d79aed1eafb0637e89f5e97090f2fb] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@class='filter-block filter-block-collapse active']"
+}
+[1605555806.855][INFO]: Waiting for pending navigations...
+[1605555806.857][INFO]: Done waiting for pending navigations. Status: ok
+[1605555806.873][INFO]: Waiting for pending navigations...
+[1605555806.874][INFO]: Done waiting for pending navigations. Status: ok
+[1605555806.874][INFO]: [52d79aed1eafb0637e89f5e97090f2fb] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='filter-block filter-block-collapse active']"}
+  (Session info: chrome=86.0.4240.193)
+[1605555807.086][INFO]: [52d79aed1eafb0637e89f5e97090f2fb] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@class='filter-block filter-block-collapse active']"
+}
+[1605555807.086][INFO]: Waiting for pending navigations...
+[1605555807.087][INFO]: Done waiting for pending navigations. Status: ok
+[1605555807.092][INFO]: Waiting for pending navigations...
+[1605555807.093][INFO]: Done waiting for pending navigations. Status: ok
+[1605555807.093][INFO]: [52d79aed1eafb0637e89f5e97090f2fb] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='filter-block filter-block-collapse active']"}
+  (Session info: chrome=86.0.4240.193)
+[1605555807.310][INFO]: [52d79aed1eafb0637e89f5e97090f2fb] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@class='filter-block filter-block-collapse active']"
+}
+[1605555807.310][INFO]: Waiting for pending navigations...
+[1605555807.315][INFO]: Done waiting for pending navigations. Status: ok
+[1605555807.328][INFO]: Waiting for pending navigations...
+[1605555807.330][INFO]: Done waiting for pending navigations. Status: ok
+[1605555807.330][INFO]: [52d79aed1eafb0637e89f5e97090f2fb] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='filter-block filter-block-collapse active']"}
+  (Session info: chrome=86.0.4240.193)
+[1605555807.540][INFO]: [52d79aed1eafb0637e89f5e97090f2fb] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@class='filter-block filter-block-collapse active']"
+}
+[1605555807.540][INFO]: Waiting for pending navigations...
+[1605555807.541][INFO]: Done waiting for pending navigations. Status: ok
+[1605555807.546][INFO]: Waiting for pending navigations...
+[1605555807.547][INFO]: Done waiting for pending navigations. Status: ok
+[1605555807.547][INFO]: [52d79aed1eafb0637e89f5e97090f2fb] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='filter-block filter-block-collapse active']"}
+  (Session info: chrome=86.0.4240.193)
+[1605555807.764][INFO]: [52d79aed1eafb0637e89f5e97090f2fb] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@class='filter-block filter-block-collapse active']"
+}
+[1605555807.764][INFO]: Waiting for pending navigations...
+[1605555807.766][INFO]: Done waiting for pending navigations. Status: ok
+[1605555807.783][INFO]: Waiting for pending navigations...
+[1605555807.785][INFO]: Done waiting for pending navigations. Status: ok
+[1605555807.785][INFO]: [52d79aed1eafb0637e89f5e97090f2fb] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='filter-block filter-block-collapse active']"}
+  (Session info: chrome=86.0.4240.193)
+[1605555807.996][INFO]: [52d79aed1eafb0637e89f5e97090f2fb] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@class='filter-block filter-block-collapse active']"
+}
+[1605555807.996][INFO]: Waiting for pending navigations...
+[1605555807.997][INFO]: Done waiting for pending navigations. Status: ok
+[1605555808.004][INFO]: Waiting for pending navigations...
+[1605555808.005][INFO]: Done waiting for pending navigations. Status: ok
+[1605555808.005][INFO]: [52d79aed1eafb0637e89f5e97090f2fb] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='filter-block filter-block-collapse active']"}
+  (Session info: chrome=86.0.4240.193)
+[1605555808.216][INFO]: [52d79aed1eafb0637e89f5e97090f2fb] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@class='filter-block filter-block-collapse active']"
+}
+[1605555808.217][INFO]: Waiting for pending navigations...
+[1605555808.218][INFO]: Done waiting for pending navigations. Status: ok
+[1605555808.232][INFO]: Waiting for pending navigations...
+[1605555808.233][INFO]: Done waiting for pending navigations. Status: ok
+[1605555808.233][INFO]: [52d79aed1eafb0637e89f5e97090f2fb] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='filter-block filter-block-collapse active']"}
+  (Session info: chrome=86.0.4240.193)
+[1605555808.452][INFO]: [52d79aed1eafb0637e89f5e97090f2fb] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@class='filter-block filter-block-collapse active']"
+}
+[1605555808.453][INFO]: Waiting for pending navigations...
+[1605555808.454][INFO]: Done waiting for pending navigations. Status: ok
+[1605555808.468][INFO]: Waiting for pending navigations...
+[1605555808.470][INFO]: Done waiting for pending navigations. Status: ok
+[1605555808.470][INFO]: [52d79aed1eafb0637e89f5e97090f2fb] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='filter-block filter-block-collapse active']"}
+  (Session info: chrome=86.0.4240.193)
+[1605555808.688][INFO]: [52d79aed1eafb0637e89f5e97090f2fb] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@class='filter-block filter-block-collapse active']"
+}
+[1605555808.688][INFO]: Waiting for pending navigations...
+[1605555808.689][INFO]: Done waiting for pending navigations. Status: ok
+[1605555808.694][INFO]: Waiting for pending navigations...
+[1605555808.696][INFO]: Done waiting for pending navigations. Status: ok
+[1605555808.696][INFO]: [52d79aed1eafb0637e89f5e97090f2fb] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='filter-block filter-block-collapse active']"}
+  (Session info: chrome=86.0.4240.193)
+[1605555808.906][INFO]: [52d79aed1eafb0637e89f5e97090f2fb] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@class='filter-block filter-block-collapse active']"
+}
+[1605555808.906][INFO]: Waiting for pending navigations...
+[1605555808.908][INFO]: Done waiting for pending navigations. Status: ok
+[1605555808.919][INFO]: Waiting for pending navigations...
+[1605555808.921][INFO]: Done waiting for pending navigations. Status: ok
+[1605555808.921][INFO]: [52d79aed1eafb0637e89f5e97090f2fb] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='filter-block filter-block-collapse active']"}
+  (Session info: chrome=86.0.4240.193)
+[1605555809.138][INFO]: [52d79aed1eafb0637e89f5e97090f2fb] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@class='filter-block filter-block-collapse active']"
+}
+[1605555809.138][INFO]: Waiting for pending navigations...
+[1605555809.139][INFO]: Done waiting for pending navigations. Status: ok
+[1605555809.145][INFO]: Waiting for pending navigations...
+[1605555809.146][INFO]: Done waiting for pending navigations. Status: ok
+[1605555809.146][INFO]: [52d79aed1eafb0637e89f5e97090f2fb] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='filter-block filter-block-collapse active']"}
+  (Session info: chrome=86.0.4240.193)
+[1605555809.357][INFO]: [52d79aed1eafb0637e89f5e97090f2fb] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@class='filter-block filter-block-collapse active']"
+}
+[1605555809.357][INFO]: Waiting for pending navigations...
+[1605555809.358][INFO]: Done waiting for pending navigations. Status: ok
+[1605555809.365][INFO]: Waiting for pending navigations...
+[1605555809.365][INFO]: Done waiting for pending navigations. Status: ok
+[1605555809.365][INFO]: [52d79aed1eafb0637e89f5e97090f2fb] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='filter-block filter-block-collapse active']"}
+  (Session info: chrome=86.0.4240.193)
+[1605555809.575][INFO]: [52d79aed1eafb0637e89f5e97090f2fb] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@class='filter-block filter-block-collapse active']"
+}
+[1605555809.575][INFO]: Waiting for pending navigations...
+[1605555809.577][INFO]: Done waiting for pending navigations. Status: ok
+[1605555809.589][INFO]: Waiting for pending navigations...
+[1605555809.591][INFO]: Done waiting for pending navigations. Status: ok
+[1605555809.591][INFO]: [52d79aed1eafb0637e89f5e97090f2fb] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='filter-block filter-block-collapse active']"}
+  (Session info: chrome=86.0.4240.193)
+[1605555809.814][INFO]: [52d79aed1eafb0637e89f5e97090f2fb] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@class='filter-block filter-block-collapse active']"
+}
+[1605555809.815][INFO]: Waiting for pending navigations...
+[1605555809.817][INFO]: Done waiting for pending navigations. Status: ok
+[1605555809.841][INFO]: Waiting for pending navigations...
+[1605555809.843][INFO]: Done waiting for pending navigations. Status: ok
+[1605555809.843][INFO]: [52d79aed1eafb0637e89f5e97090f2fb] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='filter-block filter-block-collapse active']"}
+  (Session info: chrome=86.0.4240.193)
+[1605555810.065][INFO]: [52d79aed1eafb0637e89f5e97090f2fb] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@class='filter-block filter-block-collapse active']"
+}
+[1605555810.065][INFO]: Waiting for pending navigations...
+[1605555810.068][INFO]: Done waiting for pending navigations. Status: ok
+[1605555810.084][INFO]: Waiting for pending navigations...
+[1605555810.086][INFO]: Done waiting for pending navigations. Status: ok
+[1605555810.086][INFO]: [52d79aed1eafb0637e89f5e97090f2fb] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='filter-block filter-block-collapse active']"}
+  (Session info: chrome=86.0.4240.193)
+[1605555810.300][INFO]: [52d79aed1eafb0637e89f5e97090f2fb] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@class='filter-block filter-block-collapse active']"
+}
+[1605555810.300][INFO]: Waiting for pending navigations...
+[1605555810.303][INFO]: Done waiting for pending navigations. Status: ok
+[1605555810.330][INFO]: Waiting for pending navigations...
+[1605555810.331][INFO]: Done waiting for pending navigations. Status: ok
+[1605555810.331][INFO]: [52d79aed1eafb0637e89f5e97090f2fb] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='filter-block filter-block-collapse active']"}
+  (Session info: chrome=86.0.4240.193)
+[1605555810.551][INFO]: [52d79aed1eafb0637e89f5e97090f2fb] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//div[@class='filter-block filter-block-collapse active']"
+}
+[1605555810.551][INFO]: Waiting for pending navigations...
+[1605555810.553][INFO]: Done waiting for pending navigations. Status: ok
+[1605555810.583][INFO]: Waiting for pending navigations...
+[1605555810.584][INFO]: Done waiting for pending navigations. Status: ok
+[1605555810.584][INFO]: [52d79aed1eafb0637e89f5e97090f2fb] RESPONSE FindElements [  ]
+[1605555810.600][INFO]: [52d79aed1eafb0637e89f5e97090f2fb] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var source = document.documentElement.outerHTML; \nif (!source) { source = new XMLSerializer().serializeToString(document); }\nreturn source;"
+}
+[1605555810.600][INFO]: Waiting for pending navigations...
+[1605555810.601][INFO]: Done waiting for pending navigations. Status: ok
+[1605555810.626][INFO]: Waiting for pending navigations...
+[1605555810.628][INFO]: Done waiting for pending navigations. Status: ok
+[1605555810.628][INFO]: [52d79aed1eafb0637e89f5e97090f2fb] RESPONSE ExecuteScript "\u003Chtml default-lang=\"lv\" lang=\"lv\" class=\" no-touch\">\u003Chead>\n\u003Cmeta theme=\"1a\">\n\u003Cmeta charset=\"utf-8\">\n\u003Cmeta content=\"IE=edge\" http-equiv=\"X-UA-Compatible\">\n\u003Cscript type=\"text/javascript\" src=\"https:/..."
+[1605555810.687][INFO]: [52d79aed1eafb0637e89f5e97090f2fb] COMMAND Screenshot {
+
+}
+[1605555810.687][INFO]: Waiting for pending navigations...
+[1605555810.688][INFO]: Done waiting for pending navigations. Status: ok
+[1605555811.047][INFO]: Waiting for pending navigations...
+[1605555811.048][INFO]: Done waiting for pending navigations. Status: ok
+[1605555811.048][INFO]: [52d79aed1eafb0637e89f5e97090f2fb] RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAAB4AAAAOvCAYAAAAtF9k2AAAAAXNSR0IArs4c6QAAIABJREFUeJzs3XtcVNe9//+XlyhyxIJiBNTE8QaDmghiG0lNZDQX8WgiJrGBmH4V26PRpFEwza8S+6shbRPFNEarTUTPVwupSdRWD+SmY6onkEYKNhLwFobECxgvQ4TqoCLfP..."
+[1605555811.114][INFO]: [52d79aed1eafb0637e89f5e97090f2fb] COMMAND Quit {
+
+}
+[1605555811.142][INFO]: [52d79aed1eafb0637e89f5e97090f2fb] RESPONSE Quit

@@ -1,0 +1,345 @@
+[1605451872.974][INFO]: Starting ChromeDriver 86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}) on port 3307
+[1605451872.974][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1605451873.792][INFO]: [9846fcd98284badecb2db0ffb6b8387d] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--no-sandbox" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "C:\\Users\\Windows\\IdeaProjects\\FinalProject\\build\\downloads\\1605451871861_14136_1",
+               "plugins.always_open_pdf_externally": true
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--no-sandbox" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "C:\\Users\\Windows\\IdeaProjects\\FinalProject\\build\\downloads\\1605451871861_14136_1",
+            "plugins.always_open_pdf_externally": true
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1605451873.804][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "C:\\Users\\Windows\\IdeaProjects\\FinalProject\\build\\downloads\\1605451871861_14136_1"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1605451873.805][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1605451873.806][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --no-sandbox --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\Windows\AppData\Local\Temp\scoped_dir7840_384873152" data:,
+[1605451874.562][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1605451876.612][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1605451878.664][INFO]: [9846fcd98284badecb2db0ffb6b8387d] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "86.0.4240.193",
+      "chrome": {
+         "chromedriverVersion": "86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378})",
+         "userDataDir": "C:\\Users\\Windows\\AppData\\Local\\Temp\\scoped_dir7840_384873152"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:53737"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "9846fcd98284badecb2db0ffb6b8387d"
+}
+[1605451878.787][INFO]: [9846fcd98284badecb2db0ffb6b8387d] COMMAND SetWindowRect {
+   "height": 768,
+   "width": 1366
+}
+[1605451878.787][INFO]: Waiting for pending navigations...
+[1605451878.793][INFO]: Done waiting for pending navigations. Status: ok
+[1605451878.911][INFO]: Waiting for pending navigations...
+[1605451878.913][INFO]: Done waiting for pending navigations. Status: ok
+[1605451878.913][INFO]: [9846fcd98284badecb2db0ffb6b8387d] RESPONSE SetWindowRect {
+   "height": 770,
+   "width": 1368,
+   "x": 8,
+   "y": 8
+}
+[1605451878.932][INFO]: [9846fcd98284badecb2db0ffb6b8387d] COMMAND SetTimeouts {
+   "pageLoad": 30000
+}
+[1605451878.932][INFO]: [9846fcd98284badecb2db0ffb6b8387d] RESPONSE SetTimeouts
+[1605451878.962][INFO]: [9846fcd98284badecb2db0ffb6b8387d] COMMAND Navigate {
+   "url": "https://www.1a.lv/"
+}
+[1605451878.962][INFO]: Waiting for pending navigations...
+[1605451878.964][INFO]: Done waiting for pending navigations. Status: ok
+[1605451879.282][INFO]: Waiting for pending navigations...
+[1605451881.736][INFO]: Done waiting for pending navigations. Status: ok
+[1605451881.736][INFO]: [9846fcd98284badecb2db0ffb6b8387d] RESPONSE Navigate
+[1605451881.804][INFO]: [9846fcd98284badecb2db0ffb6b8387d] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//input[@class='sn-suggest-input autocomplete main-search-input']"
+}
+[1605451881.804][INFO]: Waiting for pending navigations...
+[1605451881.805][INFO]: Done waiting for pending navigations. Status: ok
+[1605451881.828][INFO]: Waiting for pending navigations...
+[1605451881.829][INFO]: Done waiting for pending navigations. Status: ok
+[1605451881.829][INFO]: [9846fcd98284badecb2db0ffb6b8387d] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "62565b89-1cab-4219-a558-0b92f647f6f0"
+}
+[1605451881.840][INFO]: [9846fcd98284badecb2db0ffb6b8387d] COMMAND TypeElement {
+   "id": "62565b89-1cab-4219-a558-0b92f647f6f0",
+   "text": "samsung tv",
+   "value": [ "s", "a", "m", "s", "u", "n", "g", " ", "t", "v" ]
+}
+[1605451881.840][INFO]: Waiting for pending navigations...
+[1605451881.841][INFO]: Done waiting for pending navigations. Status: ok
+[1605451882.024][INFO]: Waiting for pending navigations...
+[1605451882.042][INFO]: Done waiting for pending navigations. Status: ok
+[1605451882.042][INFO]: [9846fcd98284badecb2db0ffb6b8387d] RESPONSE TypeElement
+[1605451882.049][INFO]: [9846fcd98284badecb2db0ffb6b8387d] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@class='main-search__submit']"
+}
+[1605451882.049][INFO]: Waiting for pending navigations...
+[1605451882.066][INFO]: Done waiting for pending navigations. Status: ok
+[1605451882.196][INFO]: Waiting for pending navigations...
+[1605451882.207][INFO]: Done waiting for pending navigations. Status: ok
+[1605451882.207][INFO]: [9846fcd98284badecb2db0ffb6b8387d] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "29bf9254-6be8-401e-92c2-e8f8f659e573"
+}
+[1605451882.217][INFO]: [9846fcd98284badecb2db0ffb6b8387d] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "29bf9254-6be8-401e-92c2-e8f8f659e573"
+   } ],
+   "script": "var form = arguments[0];\nwhile (form.nodeName != \"FORM\" && form.parentNode) {\n  form = form.parentNode;\n}\nif (!form) { throw Error('Unable to find containing form element'); }\nif (!form.ownerDocument) { throw Error('Unable to find owning document'); }\nvar e = form.ownerDocument.createEvent('Event');\ne.initEvent('submit', true, true);\nif (form.dispatchEvent(e)) { HTMLFormElement.prototype.submit.call(form) }\n"
+}
+[1605451882.217][INFO]: Waiting for pending navigations...
+[1605451882.219][INFO]: Done waiting for pending navigations. Status: ok
+[1605451882.298][INFO]: Waiting for pending navigations...
+[1605451882.315][INFO]: Done waiting for pending navigations. Status: ok
+[1605451882.315][INFO]: [9846fcd98284badecb2db0ffb6b8387d] RESPONSE ExecuteScript null
+[1605451882.331][INFO]: [9846fcd98284badecb2db0ffb6b8387d] COMMAND GetAlertMessage {
+
+}
+[1605451882.331][INFO]: Waiting for pending navigations...
+[1605451882.332][INFO]: Done waiting for pending navigations. Status: ok
+[1605451882.332][INFO]: [9846fcd98284badecb2db0ffb6b8387d] RESPONSE GetAlertMessage ERROR no such alert
+  (Session info: chrome=86.0.4240.193)
+[1605451882.551][INFO]: [9846fcd98284badecb2db0ffb6b8387d] COMMAND GetAlertMessage {
+
+}
+[1605451882.551][INFO]: Waiting for pending navigations...
+[1605451882.564][INFO]: Done waiting for pending navigations. Status: ok
+[1605451882.565][INFO]: [9846fcd98284badecb2db0ffb6b8387d] RESPONSE GetAlertMessage ERROR no such alert
+  (Session info: chrome=86.0.4240.193)
+[1605451882.782][INFO]: [9846fcd98284badecb2db0ffb6b8387d] COMMAND GetAlertMessage {
+
+}
+[1605451882.799][INFO]: Waiting for pending navigations...
+[1605451882.822][INFO]: Done waiting for pending navigations. Status: ok
+[1605451882.823][INFO]: [9846fcd98284badecb2db0ffb6b8387d] RESPONSE GetAlertMessage ERROR no such alert
+  (Session info: chrome=86.0.4240.193)
+[1605451883.034][INFO]: [9846fcd98284badecb2db0ffb6b8387d] COMMAND GetAlertMessage {
+
+}
+[1605451883.034][INFO]: Waiting for pending navigations...
+[1605451883.053][INFO]: Done waiting for pending navigations. Status: ok
+[1605451883.053][INFO]: [9846fcd98284badecb2db0ffb6b8387d] RESPONSE GetAlertMessage ERROR no such alert
+  (Session info: chrome=86.0.4240.193)
+[1605451883.264][INFO]: [9846fcd98284badecb2db0ffb6b8387d] COMMAND GetAlertMessage {
+
+}
+[1605451883.265][INFO]: Waiting for pending navigations...
+[1605451883.267][INFO]: Done waiting for pending navigations. Status: ok
+[1605451883.267][INFO]: [9846fcd98284badecb2db0ffb6b8387d] RESPONSE GetAlertMessage ERROR no such alert
+  (Session info: chrome=86.0.4240.193)
+[1605451883.483][INFO]: [9846fcd98284badecb2db0ffb6b8387d] COMMAND GetAlertMessage {
+
+}
+[1605451883.483][INFO]: Waiting for pending navigations...
+[1605451884.131][INFO]: Done waiting for pending navigations. Status: ok
+[1605451884.131][INFO]: [9846fcd98284badecb2db0ffb6b8387d] RESPONSE GetAlertMessage ERROR no such alert
+  (Session info: chrome=86.0.4240.193)
+[1605451884.345][INFO]: [9846fcd98284badecb2db0ffb6b8387d] COMMAND GetAlertMessage {
+
+}
+[1605451884.345][INFO]: Waiting for pending navigations...
+[1605451884.499][INFO]: Done waiting for pending navigations. Status: ok
+[1605451884.499][INFO]: [9846fcd98284badecb2db0ffb6b8387d] RESPONSE GetAlertMessage ERROR no such alert
+  (Session info: chrome=86.0.4240.193)
+[1605451884.709][INFO]: [9846fcd98284badecb2db0ffb6b8387d] COMMAND GetAlertMessage {
+
+}
+[1605451884.709][INFO]: Waiting for pending navigations...
+[1605451884.710][INFO]: Done waiting for pending navigations. Status: ok
+[1605451884.710][INFO]: [9846fcd98284badecb2db0ffb6b8387d] RESPONSE GetAlertMessage ERROR no such alert
+  (Session info: chrome=86.0.4240.193)
+[1605451884.916][INFO]: [9846fcd98284badecb2db0ffb6b8387d] COMMAND GetAlertMessage {
+
+}
+[1605451884.917][INFO]: Waiting for pending navigations...
+[1605451884.922][INFO]: Done waiting for pending navigations. Status: ok
+[1605451884.922][INFO]: [9846fcd98284badecb2db0ffb6b8387d] RESPONSE GetAlertMessage ERROR no such alert
+  (Session info: chrome=86.0.4240.193)
+[1605451885.139][INFO]: [9846fcd98284badecb2db0ffb6b8387d] COMMAND GetAlertMessage {
+
+}
+[1605451885.139][INFO]: Waiting for pending navigations...
+[1605451885.141][INFO]: Done waiting for pending navigations. Status: ok
+[1605451885.141][INFO]: [9846fcd98284badecb2db0ffb6b8387d] RESPONSE GetAlertMessage ERROR no such alert
+  (Session info: chrome=86.0.4240.193)
+[1605451885.357][INFO]: [9846fcd98284badecb2db0ffb6b8387d] COMMAND GetAlertMessage {
+
+}
+[1605451885.357][INFO]: Waiting for pending navigations...
+[1605451885.359][INFO]: Done waiting for pending navigations. Status: ok
+[1605451885.359][INFO]: [9846fcd98284badecb2db0ffb6b8387d] RESPONSE GetAlertMessage ERROR no such alert
+  (Session info: chrome=86.0.4240.193)
+[1605451885.567][INFO]: [9846fcd98284badecb2db0ffb6b8387d] COMMAND GetAlertMessage {
+
+}
+[1605451885.567][INFO]: Waiting for pending navigations...
+[1605451885.568][INFO]: Done waiting for pending navigations. Status: ok
+[1605451885.569][INFO]: [9846fcd98284badecb2db0ffb6b8387d] RESPONSE GetAlertMessage ERROR no such alert
+  (Session info: chrome=86.0.4240.193)
+[1605451885.774][INFO]: [9846fcd98284badecb2db0ffb6b8387d] COMMAND GetAlertMessage {
+
+}
+[1605451885.774][INFO]: Waiting for pending navigations...
+[1605451885.775][INFO]: Done waiting for pending navigations. Status: ok
+[1605451885.775][INFO]: [9846fcd98284badecb2db0ffb6b8387d] RESPONSE GetAlertMessage ERROR no such alert
+  (Session info: chrome=86.0.4240.193)
+[1605451885.985][INFO]: [9846fcd98284badecb2db0ffb6b8387d] COMMAND GetAlertMessage {
+
+}
+[1605451885.985][INFO]: Waiting for pending navigations...
+[1605451885.986][INFO]: Done waiting for pending navigations. Status: ok
+[1605451885.986][INFO]: [9846fcd98284badecb2db0ffb6b8387d] RESPONSE GetAlertMessage ERROR no such alert
+  (Session info: chrome=86.0.4240.193)
+[1605451886.193][INFO]: [9846fcd98284badecb2db0ffb6b8387d] COMMAND GetAlertMessage {
+
+}
+[1605451886.194][INFO]: Waiting for pending navigations...
+[1605451886.196][INFO]: Done waiting for pending navigations. Status: ok
+[1605451886.196][INFO]: [9846fcd98284badecb2db0ffb6b8387d] RESPONSE GetAlertMessage ERROR no such alert
+  (Session info: chrome=86.0.4240.193)
+[1605451886.409][INFO]: [9846fcd98284badecb2db0ffb6b8387d] COMMAND GetAlertMessage {
+
+}
+[1605451886.409][INFO]: Waiting for pending navigations...
+[1605451886.411][INFO]: Done waiting for pending navigations. Status: ok
+[1605451886.411][INFO]: [9846fcd98284badecb2db0ffb6b8387d] RESPONSE GetAlertMessage ERROR no such alert
+  (Session info: chrome=86.0.4240.193)
+[1605451886.432][INFO]: [9846fcd98284badecb2db0ffb6b8387d] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var source = document.documentElement.outerHTML; \nif (!source) { source = new XMLSerializer().serializeToString(document); }\nreturn source;"
+}
+[1605451886.432][INFO]: Waiting for pending navigations...
+[1605451886.433][INFO]: Done waiting for pending navigations. Status: ok
+[1605451886.521][INFO]: Waiting for pending navigations...
+[1605451886.523][INFO]: Done waiting for pending navigations. Status: ok
+[1605451886.524][INFO]: [9846fcd98284badecb2db0ffb6b8387d] RESPONSE ExecuteScript "\u003Chtml default-lang=\"lv\" lang=\"lv\" class=\" no-touch\">\u003Chead>\n\u003Cmeta theme=\"1a\">\n\u003Cmeta charset=\"utf-8\">\n\u003Cmeta content=\"IE=edge\" http-equiv=\"X-UA-Compatible\">\n\u003Cscript type=\"text/javascript\" async=\"\" src..."
+[1605451886.703][INFO]: [9846fcd98284badecb2db0ffb6b8387d] COMMAND Screenshot {
+
+}
+[1605451886.703][INFO]: Waiting for pending navigations...
+[1605451886.704][INFO]: Done waiting for pending navigations. Status: ok
+[1605451887.056][INFO]: Waiting for pending navigations...
+[1605451887.058][INFO]: Done waiting for pending navigations. Status: ok
+[1605451887.058][INFO]: [9846fcd98284badecb2db0ffb6b8387d] RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAABpoAAANVCAYAAABoHC2oAAAAAXNSR0IArs4c6QAAIABJREFUeJzs3XtcVWXe//+XhxS5xQGlBNRye4KNWoI4kzRWoB3EW0utnCCbr+LMrek0Jdj0G8n5jdncMyk2mY5Oid5fHWis1Bm9oal0WzpBkwSWBJ5iWypgapuE0Y2KfP9Ye..."
+[1605451887.165][INFO]: [9846fcd98284badecb2db0ffb6b8387d] COMMAND Quit {
+
+}
+[1605451887.197][INFO]: [9846fcd98284badecb2db0ffb6b8387d] RESPONSE Quit

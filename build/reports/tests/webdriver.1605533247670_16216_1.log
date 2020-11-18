@@ -1,0 +1,1693 @@
+[1605533247.946][INFO]: Starting ChromeDriver 86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}) on port 32953
+[1605533247.946][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1605533248.662][INFO]: [9c6415dc8b9a6136d6029349c866597c] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--no-sandbox" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "C:\\Users\\Windows\\IdeaProjects\\FinalProject\\build\\downloads\\1605533246877_16216_1",
+               "plugins.always_open_pdf_externally": true
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--no-sandbox" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "C:\\Users\\Windows\\IdeaProjects\\FinalProject\\build\\downloads\\1605533246877_16216_1",
+            "plugins.always_open_pdf_externally": true
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1605533248.672][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "C:\\Users\\Windows\\IdeaProjects\\FinalProject\\build\\downloads\\1605533246877_16216_1"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1605533248.672][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1605533248.674][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --no-sandbox --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\Windows\AppData\Local\Temp\scoped_dir6960_759233030" data:,
+[1605533249.409][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1605533251.454][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1605533253.506][INFO]: [9c6415dc8b9a6136d6029349c866597c] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "86.0.4240.193",
+      "chrome": {
+         "chromedriverVersion": "86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378})",
+         "userDataDir": "C:\\Users\\Windows\\AppData\\Local\\Temp\\scoped_dir6960_759233030"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:51271"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "9c6415dc8b9a6136d6029349c866597c"
+}
+[1605533253.590][INFO]: [9c6415dc8b9a6136d6029349c866597c] COMMAND SetWindowRect {
+   "height": 768,
+   "width": 1366
+}
+[1605533253.590][INFO]: Waiting for pending navigations...
+[1605533253.595][INFO]: Done waiting for pending navigations. Status: ok
+[1605533253.722][INFO]: Waiting for pending navigations...
+[1605533253.723][INFO]: Done waiting for pending navigations. Status: ok
+[1605533253.723][INFO]: [9c6415dc8b9a6136d6029349c866597c] RESPONSE SetWindowRect {
+   "height": 770,
+   "width": 1368,
+   "x": 8,
+   "y": 8
+}
+[1605533253.733][INFO]: [9c6415dc8b9a6136d6029349c866597c] COMMAND SetTimeouts {
+   "pageLoad": 30000
+}
+[1605533253.733][INFO]: [9c6415dc8b9a6136d6029349c866597c] RESPONSE SetTimeouts
+[1605533253.748][INFO]: [9c6415dc8b9a6136d6029349c866597c] COMMAND Navigate {
+   "url": "https://www.1a.lv/"
+}
+[1605533253.748][INFO]: Waiting for pending navigations...
+[1605533253.750][INFO]: Done waiting for pending navigations. Status: ok
+[1605533254.149][INFO]: Waiting for pending navigations...
+[1605533256.037][INFO]: Done waiting for pending navigations. Status: ok
+[1605533256.037][INFO]: [9c6415dc8b9a6136d6029349c866597c] RESPONSE Navigate
+[1605533256.047][INFO]: [9c6415dc8b9a6136d6029349c866597c] COMMAND MaximizeWindow {
+
+}
+[1605533256.048][INFO]: Waiting for pending navigations...
+[1605533256.131][INFO]: Done waiting for pending navigations. Status: ok
+[1605533256.263][INFO]: Waiting for pending navigations...
+[1605533256.334][INFO]: Done waiting for pending navigations. Status: ok
+[1605533256.334][INFO]: [9c6415dc8b9a6136d6029349c866597c] RESPONSE MaximizeWindow {
+   "height": 840,
+   "width": 1552,
+   "x": -8,
+   "y": -8
+}
+[1605533256.415][INFO]: [9c6415dc8b9a6136d6029349c866597c] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//input[@class='sn-suggest-input autocomplete main-search-input']"
+}
+[1605533256.415][INFO]: Waiting for pending navigations...
+[1605533256.500][INFO]: Done waiting for pending navigations. Status: ok
+[1605533256.542][INFO]: Waiting for pending navigations...
+[1605533256.547][INFO]: Done waiting for pending navigations. Status: ok
+[1605533256.547][INFO]: [9c6415dc8b9a6136d6029349c866597c] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "c87c4558-95d6-4353-ba99-76abd88050b4"
+}
+[1605533256.557][INFO]: [9c6415dc8b9a6136d6029349c866597c] COMMAND TypeElement {
+   "id": "c87c4558-95d6-4353-ba99-76abd88050b4",
+   "text": "washing machine",
+   "value": [ "w", "a", "s", "h", "i", "n", "g", " ", "m", "a", "c", "h", "i", "n", "e" ]
+}
+[1605533256.557][INFO]: Waiting for pending navigations...
+[1605533256.560][INFO]: Done waiting for pending navigations. Status: ok
+[1605533256.733][INFO]: Waiting for pending navigations...
+[1605533256.744][INFO]: Done waiting for pending navigations. Status: ok
+[1605533256.744][INFO]: [9c6415dc8b9a6136d6029349c866597c] RESPONSE TypeElement
+[1605533256.751][INFO]: [9c6415dc8b9a6136d6029349c866597c] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@class='main-search__submit']"
+}
+[1605533256.751][INFO]: Waiting for pending navigations...
+[1605533256.752][INFO]: Done waiting for pending navigations. Status: ok
+[1605533256.777][INFO]: Waiting for pending navigations...
+[1605533256.782][INFO]: Done waiting for pending navigations. Status: ok
+[1605533256.783][INFO]: [9c6415dc8b9a6136d6029349c866597c] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f6f92f4a-6c2f-4ffd-914c-5869bd260733"
+}
+[1605533256.790][INFO]: [9c6415dc8b9a6136d6029349c866597c] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "f6f92f4a-6c2f-4ffd-914c-5869bd260733"
+   } ],
+   "script": "var form = arguments[0];\nwhile (form.nodeName != \"FORM\" && form.parentNode) {\n  form = form.parentNode;\n}\nif (!form) { throw Error('Unable to find containing form element'); }\nif (!form.ownerDocument) { throw Error('Unable to find owning document'); }\nvar e = form.ownerDocument.createEvent('Event');\ne.initEvent('submit', true, true);\nif (form.dispatchEvent(e)) { HTMLFormElement.prototype.submit.call(form) }\n"
+}
+[1605533256.790][INFO]: Waiting for pending navigations...
+[1605533256.791][INFO]: Done waiting for pending navigations. Status: ok
+[1605533256.860][INFO]: Waiting for pending navigations...
+[1605533256.871][INFO]: Done waiting for pending navigations. Status: ok
+[1605533256.871][INFO]: [9c6415dc8b9a6136d6029349c866597c] RESPONSE ExecuteScript null
+[1605533259.902][INFO]: [9c6415dc8b9a6136d6029349c866597c] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//div[@class='filter-block filter-block-collapse active']"
+}
+[1605533259.903][INFO]: Waiting for pending navigations...
+[1605533259.904][INFO]: Done waiting for pending navigations. Status: ok
+[1605533259.921][INFO]: Waiting for pending navigations...
+[1605533259.922][INFO]: Done waiting for pending navigations. Status: ok
+[1605533259.922][INFO]: [9c6415dc8b9a6136d6029349c866597c] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "ad12ee26-703a-4c04-85e2-ce59a8a88617"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "10bdaeb9-7379-456a-bba2-1adacda214ba"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "7d4e75cd-51ab-4a0d-9f82-df49b6cb48b3"
+} ]
+[1605533259.928][INFO]: [9c6415dc8b9a6136d6029349c866597c] COMMAND GetElementRect {
+   "id": "7d4e75cd-51ab-4a0d-9f82-df49b6cb48b3"
+}
+[1605533259.928][INFO]: Waiting for pending navigations...
+[1605533259.929][INFO]: Done waiting for pending navigations. Status: ok
+[1605533259.941][INFO]: Waiting for pending navigations...
+[1605533259.942][INFO]: Done waiting for pending navigations. Status: ok
+[1605533259.942][INFO]: [9c6415dc8b9a6136d6029349c866597c] RESPONSE GetElementRect {
+   "height": 304.0,
+   "width": 238.0,
+   "x": 150.60000610351562,
+   "y": 1398.5999755859375
+}
+[1605533259.948][INFO]: [9c6415dc8b9a6136d6029349c866597c] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "window.scrollTo(150, 1398)"
+}
+[1605533259.948][INFO]: Waiting for pending navigations...
+[1605533259.949][INFO]: Done waiting for pending navigations. Status: ok
+[1605533259.956][INFO]: Waiting for pending navigations...
+[1605533259.958][INFO]: Done waiting for pending navigations. Status: ok
+[1605533259.958][INFO]: [9c6415dc8b9a6136d6029349c866597c] RESPONSE ExecuteScript null
+[1605533262.968][INFO]: [9c6415dc8b9a6136d6029349c866597c] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[@class='filter-link']"
+}
+[1605533262.968][INFO]: Waiting for pending navigations...
+[1605533262.971][INFO]: Done waiting for pending navigations. Status: ok
+[1605533263.012][INFO]: Waiting for pending navigations...
+[1605533263.014][INFO]: Done waiting for pending navigations. Status: ok
+[1605533263.014][INFO]: [9c6415dc8b9a6136d6029349c866597c] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "20166891-b1f1-458c-ad16-6efff433a01f"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0343784c-9ccd-4ed1-b062-18f7eafb6e46"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "90688016-dc84-4138-b790-a7f192cfeab8"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "96546c5f-c966-45ae-b739-6d42982077c5"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c00fa044-52ec-46de-afca-37e1f7895965"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "11538dc3-475f-4343-9ad6-fe96033c3dca"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "b2a4a818-c115-4956-8891-071a00943169"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "fffacaa4-ebb5-4c88-a35c-0e62f144bf17"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0c5a4338-3317-483e-9d89-eea8e7c9f37a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "7dc9fd7a-a832-49aa-be57-22faa917d6ae"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "6d6391f3-8b5f-4a72-8809-fb698254d505"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "489cad76-ca5f-463a-937f-f056dbc89131"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "479dc1e6-e385-451b-a104-a4701f6995ab"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "772ed14d-572d-4190-94f7-31cc2aa96a42"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "ac1fe3bc-0ee2-4cb6-8a2a-cf84c5fa77ef"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "481810a5-74f2-4f78-bcaf-fb4a6cda8739"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "18991824-06f0-4824-a45d-e8691e060b9d"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "166033b4-dad5-4864-9efa-57072331e0ce"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "a9b7bd84-b44f-45fc-bbda-ae4e6596f49f"
+}, "..." ]
+[1605533263.041][INFO]: [9c6415dc8b9a6136d6029349c866597c] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[@class='filter-link']"
+}
+[1605533263.041][INFO]: Waiting for pending navigations...
+[1605533263.043][INFO]: Done waiting for pending navigations. Status: ok
+[1605533263.063][INFO]: Waiting for pending navigations...
+[1605533263.065][INFO]: Done waiting for pending navigations. Status: ok
+[1605533263.066][INFO]: [9c6415dc8b9a6136d6029349c866597c] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "20166891-b1f1-458c-ad16-6efff433a01f"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0343784c-9ccd-4ed1-b062-18f7eafb6e46"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "90688016-dc84-4138-b790-a7f192cfeab8"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "96546c5f-c966-45ae-b739-6d42982077c5"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c00fa044-52ec-46de-afca-37e1f7895965"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "11538dc3-475f-4343-9ad6-fe96033c3dca"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "b2a4a818-c115-4956-8891-071a00943169"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "fffacaa4-ebb5-4c88-a35c-0e62f144bf17"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0c5a4338-3317-483e-9d89-eea8e7c9f37a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "7dc9fd7a-a832-49aa-be57-22faa917d6ae"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "6d6391f3-8b5f-4a72-8809-fb698254d505"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "489cad76-ca5f-463a-937f-f056dbc89131"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "479dc1e6-e385-451b-a104-a4701f6995ab"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "772ed14d-572d-4190-94f7-31cc2aa96a42"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "ac1fe3bc-0ee2-4cb6-8a2a-cf84c5fa77ef"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "481810a5-74f2-4f78-bcaf-fb4a6cda8739"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "18991824-06f0-4824-a45d-e8691e060b9d"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "166033b4-dad5-4864-9efa-57072331e0ce"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "a9b7bd84-b44f-45fc-bbda-ae4e6596f49f"
+}, "..." ]
+[1605533263.297][INFO]: [9c6415dc8b9a6136d6029349c866597c] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[@class='filter-link']"
+}
+[1605533263.297][INFO]: Waiting for pending navigations...
+[1605533263.300][INFO]: Done waiting for pending navigations. Status: ok
+[1605533263.321][INFO]: Waiting for pending navigations...
+[1605533263.323][INFO]: Done waiting for pending navigations. Status: ok
+[1605533263.323][INFO]: [9c6415dc8b9a6136d6029349c866597c] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "20166891-b1f1-458c-ad16-6efff433a01f"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0343784c-9ccd-4ed1-b062-18f7eafb6e46"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "90688016-dc84-4138-b790-a7f192cfeab8"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "96546c5f-c966-45ae-b739-6d42982077c5"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c00fa044-52ec-46de-afca-37e1f7895965"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "11538dc3-475f-4343-9ad6-fe96033c3dca"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "b2a4a818-c115-4956-8891-071a00943169"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "fffacaa4-ebb5-4c88-a35c-0e62f144bf17"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0c5a4338-3317-483e-9d89-eea8e7c9f37a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "7dc9fd7a-a832-49aa-be57-22faa917d6ae"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "6d6391f3-8b5f-4a72-8809-fb698254d505"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "489cad76-ca5f-463a-937f-f056dbc89131"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "479dc1e6-e385-451b-a104-a4701f6995ab"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "772ed14d-572d-4190-94f7-31cc2aa96a42"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "ac1fe3bc-0ee2-4cb6-8a2a-cf84c5fa77ef"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "481810a5-74f2-4f78-bcaf-fb4a6cda8739"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "18991824-06f0-4824-a45d-e8691e060b9d"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "166033b4-dad5-4864-9efa-57072331e0ce"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "a9b7bd84-b44f-45fc-bbda-ae4e6596f49f"
+}, "..." ]
+[1605533263.346][INFO]: [9c6415dc8b9a6136d6029349c866597c] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[@class='filter-link']"
+}
+[1605533263.346][INFO]: Waiting for pending navigations...
+[1605533263.348][INFO]: Done waiting for pending navigations. Status: ok
+[1605533263.370][INFO]: Waiting for pending navigations...
+[1605533263.372][INFO]: Done waiting for pending navigations. Status: ok
+[1605533263.372][INFO]: [9c6415dc8b9a6136d6029349c866597c] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "20166891-b1f1-458c-ad16-6efff433a01f"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0343784c-9ccd-4ed1-b062-18f7eafb6e46"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "90688016-dc84-4138-b790-a7f192cfeab8"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "96546c5f-c966-45ae-b739-6d42982077c5"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c00fa044-52ec-46de-afca-37e1f7895965"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "11538dc3-475f-4343-9ad6-fe96033c3dca"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "b2a4a818-c115-4956-8891-071a00943169"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "fffacaa4-ebb5-4c88-a35c-0e62f144bf17"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0c5a4338-3317-483e-9d89-eea8e7c9f37a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "7dc9fd7a-a832-49aa-be57-22faa917d6ae"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "6d6391f3-8b5f-4a72-8809-fb698254d505"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "489cad76-ca5f-463a-937f-f056dbc89131"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "479dc1e6-e385-451b-a104-a4701f6995ab"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "772ed14d-572d-4190-94f7-31cc2aa96a42"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "ac1fe3bc-0ee2-4cb6-8a2a-cf84c5fa77ef"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "481810a5-74f2-4f78-bcaf-fb4a6cda8739"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "18991824-06f0-4824-a45d-e8691e060b9d"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "166033b4-dad5-4864-9efa-57072331e0ce"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "a9b7bd84-b44f-45fc-bbda-ae4e6596f49f"
+}, "..." ]
+[1605533263.595][INFO]: [9c6415dc8b9a6136d6029349c866597c] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[@class='filter-link']"
+}
+[1605533263.596][INFO]: Waiting for pending navigations...
+[1605533263.598][INFO]: Done waiting for pending navigations. Status: ok
+[1605533263.616][INFO]: Waiting for pending navigations...
+[1605533263.618][INFO]: Done waiting for pending navigations. Status: ok
+[1605533263.619][INFO]: [9c6415dc8b9a6136d6029349c866597c] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "20166891-b1f1-458c-ad16-6efff433a01f"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0343784c-9ccd-4ed1-b062-18f7eafb6e46"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "90688016-dc84-4138-b790-a7f192cfeab8"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "96546c5f-c966-45ae-b739-6d42982077c5"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c00fa044-52ec-46de-afca-37e1f7895965"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "11538dc3-475f-4343-9ad6-fe96033c3dca"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "b2a4a818-c115-4956-8891-071a00943169"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "fffacaa4-ebb5-4c88-a35c-0e62f144bf17"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0c5a4338-3317-483e-9d89-eea8e7c9f37a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "7dc9fd7a-a832-49aa-be57-22faa917d6ae"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "6d6391f3-8b5f-4a72-8809-fb698254d505"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "489cad76-ca5f-463a-937f-f056dbc89131"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "479dc1e6-e385-451b-a104-a4701f6995ab"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "772ed14d-572d-4190-94f7-31cc2aa96a42"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "ac1fe3bc-0ee2-4cb6-8a2a-cf84c5fa77ef"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "481810a5-74f2-4f78-bcaf-fb4a6cda8739"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "18991824-06f0-4824-a45d-e8691e060b9d"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "166033b4-dad5-4864-9efa-57072331e0ce"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "a9b7bd84-b44f-45fc-bbda-ae4e6596f49f"
+}, "..." ]
+[1605533263.639][INFO]: [9c6415dc8b9a6136d6029349c866597c] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[@class='filter-link']"
+}
+[1605533263.639][INFO]: Waiting for pending navigations...
+[1605533263.641][INFO]: Done waiting for pending navigations. Status: ok
+[1605533263.662][INFO]: Waiting for pending navigations...
+[1605533263.664][INFO]: Done waiting for pending navigations. Status: ok
+[1605533263.664][INFO]: [9c6415dc8b9a6136d6029349c866597c] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "20166891-b1f1-458c-ad16-6efff433a01f"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0343784c-9ccd-4ed1-b062-18f7eafb6e46"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "90688016-dc84-4138-b790-a7f192cfeab8"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "96546c5f-c966-45ae-b739-6d42982077c5"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c00fa044-52ec-46de-afca-37e1f7895965"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "11538dc3-475f-4343-9ad6-fe96033c3dca"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "b2a4a818-c115-4956-8891-071a00943169"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "fffacaa4-ebb5-4c88-a35c-0e62f144bf17"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0c5a4338-3317-483e-9d89-eea8e7c9f37a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "7dc9fd7a-a832-49aa-be57-22faa917d6ae"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "6d6391f3-8b5f-4a72-8809-fb698254d505"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "489cad76-ca5f-463a-937f-f056dbc89131"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "479dc1e6-e385-451b-a104-a4701f6995ab"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "772ed14d-572d-4190-94f7-31cc2aa96a42"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "ac1fe3bc-0ee2-4cb6-8a2a-cf84c5fa77ef"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "481810a5-74f2-4f78-bcaf-fb4a6cda8739"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "18991824-06f0-4824-a45d-e8691e060b9d"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "166033b4-dad5-4864-9efa-57072331e0ce"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "a9b7bd84-b44f-45fc-bbda-ae4e6596f49f"
+}, "..." ]
+[1605533263.894][INFO]: [9c6415dc8b9a6136d6029349c866597c] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[@class='filter-link']"
+}
+[1605533263.894][INFO]: Waiting for pending navigations...
+[1605533263.897][INFO]: Done waiting for pending navigations. Status: ok
+[1605533263.916][INFO]: Waiting for pending navigations...
+[1605533263.918][INFO]: Done waiting for pending navigations. Status: ok
+[1605533263.918][INFO]: [9c6415dc8b9a6136d6029349c866597c] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "20166891-b1f1-458c-ad16-6efff433a01f"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0343784c-9ccd-4ed1-b062-18f7eafb6e46"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "90688016-dc84-4138-b790-a7f192cfeab8"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "96546c5f-c966-45ae-b739-6d42982077c5"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c00fa044-52ec-46de-afca-37e1f7895965"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "11538dc3-475f-4343-9ad6-fe96033c3dca"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "b2a4a818-c115-4956-8891-071a00943169"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "fffacaa4-ebb5-4c88-a35c-0e62f144bf17"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0c5a4338-3317-483e-9d89-eea8e7c9f37a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "7dc9fd7a-a832-49aa-be57-22faa917d6ae"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "6d6391f3-8b5f-4a72-8809-fb698254d505"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "489cad76-ca5f-463a-937f-f056dbc89131"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "479dc1e6-e385-451b-a104-a4701f6995ab"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "772ed14d-572d-4190-94f7-31cc2aa96a42"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "ac1fe3bc-0ee2-4cb6-8a2a-cf84c5fa77ef"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "481810a5-74f2-4f78-bcaf-fb4a6cda8739"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "18991824-06f0-4824-a45d-e8691e060b9d"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "166033b4-dad5-4864-9efa-57072331e0ce"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "a9b7bd84-b44f-45fc-bbda-ae4e6596f49f"
+}, "..." ]
+[1605533263.937][INFO]: [9c6415dc8b9a6136d6029349c866597c] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[@class='filter-link']"
+}
+[1605533263.937][INFO]: Waiting for pending navigations...
+[1605533263.940][INFO]: Done waiting for pending navigations. Status: ok
+[1605533263.958][INFO]: Waiting for pending navigations...
+[1605533263.960][INFO]: Done waiting for pending navigations. Status: ok
+[1605533263.960][INFO]: [9c6415dc8b9a6136d6029349c866597c] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "20166891-b1f1-458c-ad16-6efff433a01f"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0343784c-9ccd-4ed1-b062-18f7eafb6e46"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "90688016-dc84-4138-b790-a7f192cfeab8"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "96546c5f-c966-45ae-b739-6d42982077c5"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c00fa044-52ec-46de-afca-37e1f7895965"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "11538dc3-475f-4343-9ad6-fe96033c3dca"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "b2a4a818-c115-4956-8891-071a00943169"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "fffacaa4-ebb5-4c88-a35c-0e62f144bf17"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0c5a4338-3317-483e-9d89-eea8e7c9f37a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "7dc9fd7a-a832-49aa-be57-22faa917d6ae"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "6d6391f3-8b5f-4a72-8809-fb698254d505"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "489cad76-ca5f-463a-937f-f056dbc89131"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "479dc1e6-e385-451b-a104-a4701f6995ab"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "772ed14d-572d-4190-94f7-31cc2aa96a42"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "ac1fe3bc-0ee2-4cb6-8a2a-cf84c5fa77ef"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "481810a5-74f2-4f78-bcaf-fb4a6cda8739"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "18991824-06f0-4824-a45d-e8691e060b9d"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "166033b4-dad5-4864-9efa-57072331e0ce"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "a9b7bd84-b44f-45fc-bbda-ae4e6596f49f"
+}, "..." ]
+[1605533264.189][INFO]: [9c6415dc8b9a6136d6029349c866597c] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[@class='filter-link']"
+}
+[1605533264.189][INFO]: Waiting for pending navigations...
+[1605533264.192][INFO]: Done waiting for pending navigations. Status: ok
+[1605533264.211][INFO]: Waiting for pending navigations...
+[1605533264.214][INFO]: Done waiting for pending navigations. Status: ok
+[1605533264.214][INFO]: [9c6415dc8b9a6136d6029349c866597c] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "20166891-b1f1-458c-ad16-6efff433a01f"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0343784c-9ccd-4ed1-b062-18f7eafb6e46"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "90688016-dc84-4138-b790-a7f192cfeab8"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "96546c5f-c966-45ae-b739-6d42982077c5"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c00fa044-52ec-46de-afca-37e1f7895965"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "11538dc3-475f-4343-9ad6-fe96033c3dca"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "b2a4a818-c115-4956-8891-071a00943169"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "fffacaa4-ebb5-4c88-a35c-0e62f144bf17"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0c5a4338-3317-483e-9d89-eea8e7c9f37a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "7dc9fd7a-a832-49aa-be57-22faa917d6ae"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "6d6391f3-8b5f-4a72-8809-fb698254d505"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "489cad76-ca5f-463a-937f-f056dbc89131"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "479dc1e6-e385-451b-a104-a4701f6995ab"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "772ed14d-572d-4190-94f7-31cc2aa96a42"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "ac1fe3bc-0ee2-4cb6-8a2a-cf84c5fa77ef"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "481810a5-74f2-4f78-bcaf-fb4a6cda8739"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "18991824-06f0-4824-a45d-e8691e060b9d"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "166033b4-dad5-4864-9efa-57072331e0ce"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "a9b7bd84-b44f-45fc-bbda-ae4e6596f49f"
+}, "..." ]
+[1605533264.234][INFO]: [9c6415dc8b9a6136d6029349c866597c] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[@class='filter-link']"
+}
+[1605533264.234][INFO]: Waiting for pending navigations...
+[1605533264.236][INFO]: Done waiting for pending navigations. Status: ok
+[1605533264.256][INFO]: Waiting for pending navigations...
+[1605533264.258][INFO]: Done waiting for pending navigations. Status: ok
+[1605533264.258][INFO]: [9c6415dc8b9a6136d6029349c866597c] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "20166891-b1f1-458c-ad16-6efff433a01f"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0343784c-9ccd-4ed1-b062-18f7eafb6e46"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "90688016-dc84-4138-b790-a7f192cfeab8"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "96546c5f-c966-45ae-b739-6d42982077c5"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c00fa044-52ec-46de-afca-37e1f7895965"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "11538dc3-475f-4343-9ad6-fe96033c3dca"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "b2a4a818-c115-4956-8891-071a00943169"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "fffacaa4-ebb5-4c88-a35c-0e62f144bf17"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0c5a4338-3317-483e-9d89-eea8e7c9f37a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "7dc9fd7a-a832-49aa-be57-22faa917d6ae"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "6d6391f3-8b5f-4a72-8809-fb698254d505"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "489cad76-ca5f-463a-937f-f056dbc89131"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "479dc1e6-e385-451b-a104-a4701f6995ab"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "772ed14d-572d-4190-94f7-31cc2aa96a42"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "ac1fe3bc-0ee2-4cb6-8a2a-cf84c5fa77ef"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "481810a5-74f2-4f78-bcaf-fb4a6cda8739"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "18991824-06f0-4824-a45d-e8691e060b9d"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "166033b4-dad5-4864-9efa-57072331e0ce"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "a9b7bd84-b44f-45fc-bbda-ae4e6596f49f"
+}, "..." ]
+[1605533264.480][INFO]: [9c6415dc8b9a6136d6029349c866597c] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[@class='filter-link']"
+}
+[1605533264.480][INFO]: Waiting for pending navigations...
+[1605533264.482][INFO]: Done waiting for pending navigations. Status: ok
+[1605533264.497][INFO]: Waiting for pending navigations...
+[1605533264.498][INFO]: Done waiting for pending navigations. Status: ok
+[1605533264.499][INFO]: [9c6415dc8b9a6136d6029349c866597c] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "20166891-b1f1-458c-ad16-6efff433a01f"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0343784c-9ccd-4ed1-b062-18f7eafb6e46"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "90688016-dc84-4138-b790-a7f192cfeab8"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "96546c5f-c966-45ae-b739-6d42982077c5"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c00fa044-52ec-46de-afca-37e1f7895965"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "11538dc3-475f-4343-9ad6-fe96033c3dca"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "b2a4a818-c115-4956-8891-071a00943169"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "fffacaa4-ebb5-4c88-a35c-0e62f144bf17"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0c5a4338-3317-483e-9d89-eea8e7c9f37a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "7dc9fd7a-a832-49aa-be57-22faa917d6ae"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "6d6391f3-8b5f-4a72-8809-fb698254d505"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "489cad76-ca5f-463a-937f-f056dbc89131"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "479dc1e6-e385-451b-a104-a4701f6995ab"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "772ed14d-572d-4190-94f7-31cc2aa96a42"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "ac1fe3bc-0ee2-4cb6-8a2a-cf84c5fa77ef"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "481810a5-74f2-4f78-bcaf-fb4a6cda8739"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "18991824-06f0-4824-a45d-e8691e060b9d"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "166033b4-dad5-4864-9efa-57072331e0ce"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "a9b7bd84-b44f-45fc-bbda-ae4e6596f49f"
+}, "..." ]
+[1605533264.508][INFO]: [9c6415dc8b9a6136d6029349c866597c] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[@class='filter-link']"
+}
+[1605533264.509][INFO]: Waiting for pending navigations...
+[1605533264.510][INFO]: Done waiting for pending navigations. Status: ok
+[1605533264.521][INFO]: Waiting for pending navigations...
+[1605533264.522][INFO]: Done waiting for pending navigations. Status: ok
+[1605533264.522][INFO]: [9c6415dc8b9a6136d6029349c866597c] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "20166891-b1f1-458c-ad16-6efff433a01f"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0343784c-9ccd-4ed1-b062-18f7eafb6e46"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "90688016-dc84-4138-b790-a7f192cfeab8"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "96546c5f-c966-45ae-b739-6d42982077c5"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c00fa044-52ec-46de-afca-37e1f7895965"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "11538dc3-475f-4343-9ad6-fe96033c3dca"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "b2a4a818-c115-4956-8891-071a00943169"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "fffacaa4-ebb5-4c88-a35c-0e62f144bf17"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0c5a4338-3317-483e-9d89-eea8e7c9f37a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "7dc9fd7a-a832-49aa-be57-22faa917d6ae"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "6d6391f3-8b5f-4a72-8809-fb698254d505"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "489cad76-ca5f-463a-937f-f056dbc89131"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "479dc1e6-e385-451b-a104-a4701f6995ab"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "772ed14d-572d-4190-94f7-31cc2aa96a42"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "ac1fe3bc-0ee2-4cb6-8a2a-cf84c5fa77ef"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "481810a5-74f2-4f78-bcaf-fb4a6cda8739"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "18991824-06f0-4824-a45d-e8691e060b9d"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "166033b4-dad5-4864-9efa-57072331e0ce"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "a9b7bd84-b44f-45fc-bbda-ae4e6596f49f"
+}, "..." ]
+[1605533264.732][INFO]: [9c6415dc8b9a6136d6029349c866597c] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[@class='filter-link']"
+}
+[1605533264.732][INFO]: Waiting for pending navigations...
+[1605533264.735][INFO]: Done waiting for pending navigations. Status: ok
+[1605533264.754][INFO]: Waiting for pending navigations...
+[1605533264.756][INFO]: Done waiting for pending navigations. Status: ok
+[1605533264.756][INFO]: [9c6415dc8b9a6136d6029349c866597c] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "20166891-b1f1-458c-ad16-6efff433a01f"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0343784c-9ccd-4ed1-b062-18f7eafb6e46"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "90688016-dc84-4138-b790-a7f192cfeab8"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "96546c5f-c966-45ae-b739-6d42982077c5"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c00fa044-52ec-46de-afca-37e1f7895965"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "11538dc3-475f-4343-9ad6-fe96033c3dca"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "b2a4a818-c115-4956-8891-071a00943169"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "fffacaa4-ebb5-4c88-a35c-0e62f144bf17"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0c5a4338-3317-483e-9d89-eea8e7c9f37a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "7dc9fd7a-a832-49aa-be57-22faa917d6ae"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "6d6391f3-8b5f-4a72-8809-fb698254d505"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "489cad76-ca5f-463a-937f-f056dbc89131"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "479dc1e6-e385-451b-a104-a4701f6995ab"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "772ed14d-572d-4190-94f7-31cc2aa96a42"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "ac1fe3bc-0ee2-4cb6-8a2a-cf84c5fa77ef"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "481810a5-74f2-4f78-bcaf-fb4a6cda8739"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "18991824-06f0-4824-a45d-e8691e060b9d"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "166033b4-dad5-4864-9efa-57072331e0ce"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "a9b7bd84-b44f-45fc-bbda-ae4e6596f49f"
+}, "..." ]
+[1605533264.768][INFO]: [9c6415dc8b9a6136d6029349c866597c] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[@class='filter-link']"
+}
+[1605533264.768][INFO]: Waiting for pending navigations...
+[1605533264.771][INFO]: Done waiting for pending navigations. Status: ok
+[1605533264.790][INFO]: Waiting for pending navigations...
+[1605533264.792][INFO]: Done waiting for pending navigations. Status: ok
+[1605533264.792][INFO]: [9c6415dc8b9a6136d6029349c866597c] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "20166891-b1f1-458c-ad16-6efff433a01f"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0343784c-9ccd-4ed1-b062-18f7eafb6e46"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "90688016-dc84-4138-b790-a7f192cfeab8"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "96546c5f-c966-45ae-b739-6d42982077c5"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c00fa044-52ec-46de-afca-37e1f7895965"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "11538dc3-475f-4343-9ad6-fe96033c3dca"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "b2a4a818-c115-4956-8891-071a00943169"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "fffacaa4-ebb5-4c88-a35c-0e62f144bf17"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0c5a4338-3317-483e-9d89-eea8e7c9f37a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "7dc9fd7a-a832-49aa-be57-22faa917d6ae"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "6d6391f3-8b5f-4a72-8809-fb698254d505"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "489cad76-ca5f-463a-937f-f056dbc89131"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "479dc1e6-e385-451b-a104-a4701f6995ab"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "772ed14d-572d-4190-94f7-31cc2aa96a42"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "ac1fe3bc-0ee2-4cb6-8a2a-cf84c5fa77ef"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "481810a5-74f2-4f78-bcaf-fb4a6cda8739"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "18991824-06f0-4824-a45d-e8691e060b9d"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "166033b4-dad5-4864-9efa-57072331e0ce"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "a9b7bd84-b44f-45fc-bbda-ae4e6596f49f"
+}, "..." ]
+[1605533265.011][INFO]: [9c6415dc8b9a6136d6029349c866597c] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[@class='filter-link']"
+}
+[1605533265.011][INFO]: Waiting for pending navigations...
+[1605533265.013][INFO]: Done waiting for pending navigations. Status: ok
+[1605533265.036][INFO]: Waiting for pending navigations...
+[1605533265.038][INFO]: Done waiting for pending navigations. Status: ok
+[1605533265.039][INFO]: [9c6415dc8b9a6136d6029349c866597c] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "20166891-b1f1-458c-ad16-6efff433a01f"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0343784c-9ccd-4ed1-b062-18f7eafb6e46"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "90688016-dc84-4138-b790-a7f192cfeab8"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "96546c5f-c966-45ae-b739-6d42982077c5"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c00fa044-52ec-46de-afca-37e1f7895965"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "11538dc3-475f-4343-9ad6-fe96033c3dca"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "b2a4a818-c115-4956-8891-071a00943169"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "fffacaa4-ebb5-4c88-a35c-0e62f144bf17"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0c5a4338-3317-483e-9d89-eea8e7c9f37a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "7dc9fd7a-a832-49aa-be57-22faa917d6ae"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "6d6391f3-8b5f-4a72-8809-fb698254d505"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "489cad76-ca5f-463a-937f-f056dbc89131"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "479dc1e6-e385-451b-a104-a4701f6995ab"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "772ed14d-572d-4190-94f7-31cc2aa96a42"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "ac1fe3bc-0ee2-4cb6-8a2a-cf84c5fa77ef"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "481810a5-74f2-4f78-bcaf-fb4a6cda8739"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "18991824-06f0-4824-a45d-e8691e060b9d"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "166033b4-dad5-4864-9efa-57072331e0ce"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "a9b7bd84-b44f-45fc-bbda-ae4e6596f49f"
+}, "..." ]
+[1605533265.051][INFO]: [9c6415dc8b9a6136d6029349c866597c] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[@class='filter-link']"
+}
+[1605533265.051][INFO]: Waiting for pending navigations...
+[1605533265.055][INFO]: Done waiting for pending navigations. Status: ok
+[1605533265.078][INFO]: Waiting for pending navigations...
+[1605533265.080][INFO]: Done waiting for pending navigations. Status: ok
+[1605533265.080][INFO]: [9c6415dc8b9a6136d6029349c866597c] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "20166891-b1f1-458c-ad16-6efff433a01f"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0343784c-9ccd-4ed1-b062-18f7eafb6e46"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "90688016-dc84-4138-b790-a7f192cfeab8"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "96546c5f-c966-45ae-b739-6d42982077c5"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c00fa044-52ec-46de-afca-37e1f7895965"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "11538dc3-475f-4343-9ad6-fe96033c3dca"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "b2a4a818-c115-4956-8891-071a00943169"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "fffacaa4-ebb5-4c88-a35c-0e62f144bf17"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0c5a4338-3317-483e-9d89-eea8e7c9f37a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "7dc9fd7a-a832-49aa-be57-22faa917d6ae"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "6d6391f3-8b5f-4a72-8809-fb698254d505"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "489cad76-ca5f-463a-937f-f056dbc89131"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "479dc1e6-e385-451b-a104-a4701f6995ab"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "772ed14d-572d-4190-94f7-31cc2aa96a42"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "ac1fe3bc-0ee2-4cb6-8a2a-cf84c5fa77ef"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "481810a5-74f2-4f78-bcaf-fb4a6cda8739"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "18991824-06f0-4824-a45d-e8691e060b9d"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "166033b4-dad5-4864-9efa-57072331e0ce"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "a9b7bd84-b44f-45fc-bbda-ae4e6596f49f"
+}, "..." ]
+[1605533265.298][INFO]: [9c6415dc8b9a6136d6029349c866597c] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[@class='filter-link']"
+}
+[1605533265.298][INFO]: Waiting for pending navigations...
+[1605533265.300][INFO]: Done waiting for pending navigations. Status: ok
+[1605533265.320][INFO]: Waiting for pending navigations...
+[1605533265.322][INFO]: Done waiting for pending navigations. Status: ok
+[1605533265.322][INFO]: [9c6415dc8b9a6136d6029349c866597c] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "20166891-b1f1-458c-ad16-6efff433a01f"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0343784c-9ccd-4ed1-b062-18f7eafb6e46"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "90688016-dc84-4138-b790-a7f192cfeab8"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "96546c5f-c966-45ae-b739-6d42982077c5"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c00fa044-52ec-46de-afca-37e1f7895965"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "11538dc3-475f-4343-9ad6-fe96033c3dca"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "b2a4a818-c115-4956-8891-071a00943169"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "fffacaa4-ebb5-4c88-a35c-0e62f144bf17"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0c5a4338-3317-483e-9d89-eea8e7c9f37a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "7dc9fd7a-a832-49aa-be57-22faa917d6ae"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "6d6391f3-8b5f-4a72-8809-fb698254d505"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "489cad76-ca5f-463a-937f-f056dbc89131"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "479dc1e6-e385-451b-a104-a4701f6995ab"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "772ed14d-572d-4190-94f7-31cc2aa96a42"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "ac1fe3bc-0ee2-4cb6-8a2a-cf84c5fa77ef"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "481810a5-74f2-4f78-bcaf-fb4a6cda8739"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "18991824-06f0-4824-a45d-e8691e060b9d"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "166033b4-dad5-4864-9efa-57072331e0ce"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "a9b7bd84-b44f-45fc-bbda-ae4e6596f49f"
+}, "..." ]
+[1605533265.335][INFO]: [9c6415dc8b9a6136d6029349c866597c] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[@class='filter-link']"
+}
+[1605533265.335][INFO]: Waiting for pending navigations...
+[1605533265.338][INFO]: Done waiting for pending navigations. Status: ok
+[1605533265.357][INFO]: Waiting for pending navigations...
+[1605533265.362][INFO]: Done waiting for pending navigations. Status: ok
+[1605533265.362][INFO]: [9c6415dc8b9a6136d6029349c866597c] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "20166891-b1f1-458c-ad16-6efff433a01f"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0343784c-9ccd-4ed1-b062-18f7eafb6e46"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "90688016-dc84-4138-b790-a7f192cfeab8"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "96546c5f-c966-45ae-b739-6d42982077c5"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c00fa044-52ec-46de-afca-37e1f7895965"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "11538dc3-475f-4343-9ad6-fe96033c3dca"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "b2a4a818-c115-4956-8891-071a00943169"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "fffacaa4-ebb5-4c88-a35c-0e62f144bf17"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0c5a4338-3317-483e-9d89-eea8e7c9f37a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "7dc9fd7a-a832-49aa-be57-22faa917d6ae"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "6d6391f3-8b5f-4a72-8809-fb698254d505"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "489cad76-ca5f-463a-937f-f056dbc89131"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "479dc1e6-e385-451b-a104-a4701f6995ab"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "772ed14d-572d-4190-94f7-31cc2aa96a42"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "ac1fe3bc-0ee2-4cb6-8a2a-cf84c5fa77ef"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "481810a5-74f2-4f78-bcaf-fb4a6cda8739"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "18991824-06f0-4824-a45d-e8691e060b9d"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "166033b4-dad5-4864-9efa-57072331e0ce"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "a9b7bd84-b44f-45fc-bbda-ae4e6596f49f"
+}, "..." ]
+[1605533265.580][INFO]: [9c6415dc8b9a6136d6029349c866597c] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[@class='filter-link']"
+}
+[1605533265.581][INFO]: Waiting for pending navigations...
+[1605533265.583][INFO]: Done waiting for pending navigations. Status: ok
+[1605533265.604][INFO]: Waiting for pending navigations...
+[1605533265.606][INFO]: Done waiting for pending navigations. Status: ok
+[1605533265.606][INFO]: [9c6415dc8b9a6136d6029349c866597c] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "20166891-b1f1-458c-ad16-6efff433a01f"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0343784c-9ccd-4ed1-b062-18f7eafb6e46"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "90688016-dc84-4138-b790-a7f192cfeab8"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "96546c5f-c966-45ae-b739-6d42982077c5"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c00fa044-52ec-46de-afca-37e1f7895965"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "11538dc3-475f-4343-9ad6-fe96033c3dca"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "b2a4a818-c115-4956-8891-071a00943169"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "fffacaa4-ebb5-4c88-a35c-0e62f144bf17"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0c5a4338-3317-483e-9d89-eea8e7c9f37a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "7dc9fd7a-a832-49aa-be57-22faa917d6ae"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "6d6391f3-8b5f-4a72-8809-fb698254d505"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "489cad76-ca5f-463a-937f-f056dbc89131"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "479dc1e6-e385-451b-a104-a4701f6995ab"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "772ed14d-572d-4190-94f7-31cc2aa96a42"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "ac1fe3bc-0ee2-4cb6-8a2a-cf84c5fa77ef"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "481810a5-74f2-4f78-bcaf-fb4a6cda8739"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "18991824-06f0-4824-a45d-e8691e060b9d"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "166033b4-dad5-4864-9efa-57072331e0ce"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "a9b7bd84-b44f-45fc-bbda-ae4e6596f49f"
+}, "..." ]
+[1605533265.618][INFO]: [9c6415dc8b9a6136d6029349c866597c] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[@class='filter-link']"
+}
+[1605533265.618][INFO]: Waiting for pending navigations...
+[1605533265.620][INFO]: Done waiting for pending navigations. Status: ok
+[1605533265.639][INFO]: Waiting for pending navigations...
+[1605533265.641][INFO]: Done waiting for pending navigations. Status: ok
+[1605533265.641][INFO]: [9c6415dc8b9a6136d6029349c866597c] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "20166891-b1f1-458c-ad16-6efff433a01f"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0343784c-9ccd-4ed1-b062-18f7eafb6e46"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "90688016-dc84-4138-b790-a7f192cfeab8"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "96546c5f-c966-45ae-b739-6d42982077c5"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c00fa044-52ec-46de-afca-37e1f7895965"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "11538dc3-475f-4343-9ad6-fe96033c3dca"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "b2a4a818-c115-4956-8891-071a00943169"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "fffacaa4-ebb5-4c88-a35c-0e62f144bf17"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0c5a4338-3317-483e-9d89-eea8e7c9f37a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "7dc9fd7a-a832-49aa-be57-22faa917d6ae"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "6d6391f3-8b5f-4a72-8809-fb698254d505"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "489cad76-ca5f-463a-937f-f056dbc89131"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "479dc1e6-e385-451b-a104-a4701f6995ab"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "772ed14d-572d-4190-94f7-31cc2aa96a42"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "ac1fe3bc-0ee2-4cb6-8a2a-cf84c5fa77ef"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "481810a5-74f2-4f78-bcaf-fb4a6cda8739"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "18991824-06f0-4824-a45d-e8691e060b9d"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "166033b4-dad5-4864-9efa-57072331e0ce"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "a9b7bd84-b44f-45fc-bbda-ae4e6596f49f"
+}, "..." ]
+[1605533265.862][INFO]: [9c6415dc8b9a6136d6029349c866597c] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[@class='filter-link']"
+}
+[1605533265.863][INFO]: Waiting for pending navigations...
+[1605533265.865][INFO]: Done waiting for pending navigations. Status: ok
+[1605533265.884][INFO]: Waiting for pending navigations...
+[1605533265.886][INFO]: Done waiting for pending navigations. Status: ok
+[1605533265.886][INFO]: [9c6415dc8b9a6136d6029349c866597c] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "20166891-b1f1-458c-ad16-6efff433a01f"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0343784c-9ccd-4ed1-b062-18f7eafb6e46"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "90688016-dc84-4138-b790-a7f192cfeab8"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "96546c5f-c966-45ae-b739-6d42982077c5"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c00fa044-52ec-46de-afca-37e1f7895965"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "11538dc3-475f-4343-9ad6-fe96033c3dca"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "b2a4a818-c115-4956-8891-071a00943169"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "fffacaa4-ebb5-4c88-a35c-0e62f144bf17"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0c5a4338-3317-483e-9d89-eea8e7c9f37a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "7dc9fd7a-a832-49aa-be57-22faa917d6ae"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "6d6391f3-8b5f-4a72-8809-fb698254d505"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "489cad76-ca5f-463a-937f-f056dbc89131"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "479dc1e6-e385-451b-a104-a4701f6995ab"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "772ed14d-572d-4190-94f7-31cc2aa96a42"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "ac1fe3bc-0ee2-4cb6-8a2a-cf84c5fa77ef"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "481810a5-74f2-4f78-bcaf-fb4a6cda8739"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "18991824-06f0-4824-a45d-e8691e060b9d"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "166033b4-dad5-4864-9efa-57072331e0ce"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "a9b7bd84-b44f-45fc-bbda-ae4e6596f49f"
+}, "..." ]
+[1605533265.895][INFO]: [9c6415dc8b9a6136d6029349c866597c] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[@class='filter-link']"
+}
+[1605533265.895][INFO]: Waiting for pending navigations...
+[1605533265.898][INFO]: Done waiting for pending navigations. Status: ok
+[1605533265.916][INFO]: Waiting for pending navigations...
+[1605533265.918][INFO]: Done waiting for pending navigations. Status: ok
+[1605533265.919][INFO]: [9c6415dc8b9a6136d6029349c866597c] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "20166891-b1f1-458c-ad16-6efff433a01f"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0343784c-9ccd-4ed1-b062-18f7eafb6e46"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "90688016-dc84-4138-b790-a7f192cfeab8"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "96546c5f-c966-45ae-b739-6d42982077c5"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c00fa044-52ec-46de-afca-37e1f7895965"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "11538dc3-475f-4343-9ad6-fe96033c3dca"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "b2a4a818-c115-4956-8891-071a00943169"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "fffacaa4-ebb5-4c88-a35c-0e62f144bf17"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0c5a4338-3317-483e-9d89-eea8e7c9f37a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "7dc9fd7a-a832-49aa-be57-22faa917d6ae"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "6d6391f3-8b5f-4a72-8809-fb698254d505"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "489cad76-ca5f-463a-937f-f056dbc89131"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "479dc1e6-e385-451b-a104-a4701f6995ab"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "772ed14d-572d-4190-94f7-31cc2aa96a42"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "ac1fe3bc-0ee2-4cb6-8a2a-cf84c5fa77ef"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "481810a5-74f2-4f78-bcaf-fb4a6cda8739"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "18991824-06f0-4824-a45d-e8691e060b9d"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "166033b4-dad5-4864-9efa-57072331e0ce"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "a9b7bd84-b44f-45fc-bbda-ae4e6596f49f"
+}, "..." ]
+[1605533266.134][INFO]: [9c6415dc8b9a6136d6029349c866597c] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[@class='filter-link']"
+}
+[1605533266.134][INFO]: Waiting for pending navigations...
+[1605533266.137][INFO]: Done waiting for pending navigations. Status: ok
+[1605533266.156][INFO]: Waiting for pending navigations...
+[1605533266.159][INFO]: Done waiting for pending navigations. Status: ok
+[1605533266.159][INFO]: [9c6415dc8b9a6136d6029349c866597c] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "20166891-b1f1-458c-ad16-6efff433a01f"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0343784c-9ccd-4ed1-b062-18f7eafb6e46"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "90688016-dc84-4138-b790-a7f192cfeab8"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "96546c5f-c966-45ae-b739-6d42982077c5"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c00fa044-52ec-46de-afca-37e1f7895965"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "11538dc3-475f-4343-9ad6-fe96033c3dca"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "b2a4a818-c115-4956-8891-071a00943169"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "fffacaa4-ebb5-4c88-a35c-0e62f144bf17"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0c5a4338-3317-483e-9d89-eea8e7c9f37a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "7dc9fd7a-a832-49aa-be57-22faa917d6ae"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "6d6391f3-8b5f-4a72-8809-fb698254d505"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "489cad76-ca5f-463a-937f-f056dbc89131"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "479dc1e6-e385-451b-a104-a4701f6995ab"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "772ed14d-572d-4190-94f7-31cc2aa96a42"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "ac1fe3bc-0ee2-4cb6-8a2a-cf84c5fa77ef"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "481810a5-74f2-4f78-bcaf-fb4a6cda8739"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "18991824-06f0-4824-a45d-e8691e060b9d"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "166033b4-dad5-4864-9efa-57072331e0ce"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "a9b7bd84-b44f-45fc-bbda-ae4e6596f49f"
+}, "..." ]
+[1605533266.170][INFO]: [9c6415dc8b9a6136d6029349c866597c] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[@class='filter-link']"
+}
+[1605533266.170][INFO]: Waiting for pending navigations...
+[1605533266.173][INFO]: Done waiting for pending navigations. Status: ok
+[1605533266.193][INFO]: Waiting for pending navigations...
+[1605533266.196][INFO]: Done waiting for pending navigations. Status: ok
+[1605533266.196][INFO]: [9c6415dc8b9a6136d6029349c866597c] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "20166891-b1f1-458c-ad16-6efff433a01f"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0343784c-9ccd-4ed1-b062-18f7eafb6e46"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "90688016-dc84-4138-b790-a7f192cfeab8"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "96546c5f-c966-45ae-b739-6d42982077c5"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c00fa044-52ec-46de-afca-37e1f7895965"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "11538dc3-475f-4343-9ad6-fe96033c3dca"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "b2a4a818-c115-4956-8891-071a00943169"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "fffacaa4-ebb5-4c88-a35c-0e62f144bf17"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0c5a4338-3317-483e-9d89-eea8e7c9f37a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "7dc9fd7a-a832-49aa-be57-22faa917d6ae"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "6d6391f3-8b5f-4a72-8809-fb698254d505"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "489cad76-ca5f-463a-937f-f056dbc89131"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "479dc1e6-e385-451b-a104-a4701f6995ab"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "772ed14d-572d-4190-94f7-31cc2aa96a42"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "ac1fe3bc-0ee2-4cb6-8a2a-cf84c5fa77ef"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "481810a5-74f2-4f78-bcaf-fb4a6cda8739"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "18991824-06f0-4824-a45d-e8691e060b9d"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "166033b4-dad5-4864-9efa-57072331e0ce"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "a9b7bd84-b44f-45fc-bbda-ae4e6596f49f"
+}, "..." ]
+[1605533266.407][INFO]: [9c6415dc8b9a6136d6029349c866597c] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[@class='filter-link']"
+}
+[1605533266.407][INFO]: Waiting for pending navigations...
+[1605533266.409][INFO]: Done waiting for pending navigations. Status: ok
+[1605533266.428][INFO]: Waiting for pending navigations...
+[1605533266.430][INFO]: Done waiting for pending navigations. Status: ok
+[1605533266.430][INFO]: [9c6415dc8b9a6136d6029349c866597c] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "20166891-b1f1-458c-ad16-6efff433a01f"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0343784c-9ccd-4ed1-b062-18f7eafb6e46"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "90688016-dc84-4138-b790-a7f192cfeab8"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "96546c5f-c966-45ae-b739-6d42982077c5"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c00fa044-52ec-46de-afca-37e1f7895965"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "11538dc3-475f-4343-9ad6-fe96033c3dca"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "b2a4a818-c115-4956-8891-071a00943169"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "fffacaa4-ebb5-4c88-a35c-0e62f144bf17"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0c5a4338-3317-483e-9d89-eea8e7c9f37a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "7dc9fd7a-a832-49aa-be57-22faa917d6ae"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "6d6391f3-8b5f-4a72-8809-fb698254d505"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "489cad76-ca5f-463a-937f-f056dbc89131"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "479dc1e6-e385-451b-a104-a4701f6995ab"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "772ed14d-572d-4190-94f7-31cc2aa96a42"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "ac1fe3bc-0ee2-4cb6-8a2a-cf84c5fa77ef"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "481810a5-74f2-4f78-bcaf-fb4a6cda8739"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "18991824-06f0-4824-a45d-e8691e060b9d"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "166033b4-dad5-4864-9efa-57072331e0ce"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "a9b7bd84-b44f-45fc-bbda-ae4e6596f49f"
+}, "..." ]
+[1605533266.440][INFO]: [9c6415dc8b9a6136d6029349c866597c] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[@class='filter-link']"
+}
+[1605533266.440][INFO]: Waiting for pending navigations...
+[1605533266.443][INFO]: Done waiting for pending navigations. Status: ok
+[1605533266.461][INFO]: Waiting for pending navigations...
+[1605533266.464][INFO]: Done waiting for pending navigations. Status: ok
+[1605533266.464][INFO]: [9c6415dc8b9a6136d6029349c866597c] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "20166891-b1f1-458c-ad16-6efff433a01f"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0343784c-9ccd-4ed1-b062-18f7eafb6e46"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "90688016-dc84-4138-b790-a7f192cfeab8"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "96546c5f-c966-45ae-b739-6d42982077c5"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c00fa044-52ec-46de-afca-37e1f7895965"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "11538dc3-475f-4343-9ad6-fe96033c3dca"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "b2a4a818-c115-4956-8891-071a00943169"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "fffacaa4-ebb5-4c88-a35c-0e62f144bf17"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0c5a4338-3317-483e-9d89-eea8e7c9f37a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "7dc9fd7a-a832-49aa-be57-22faa917d6ae"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "6d6391f3-8b5f-4a72-8809-fb698254d505"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "489cad76-ca5f-463a-937f-f056dbc89131"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "479dc1e6-e385-451b-a104-a4701f6995ab"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "772ed14d-572d-4190-94f7-31cc2aa96a42"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "ac1fe3bc-0ee2-4cb6-8a2a-cf84c5fa77ef"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "481810a5-74f2-4f78-bcaf-fb4a6cda8739"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "18991824-06f0-4824-a45d-e8691e060b9d"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "166033b4-dad5-4864-9efa-57072331e0ce"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "a9b7bd84-b44f-45fc-bbda-ae4e6596f49f"
+}, "..." ]
+[1605533266.679][INFO]: [9c6415dc8b9a6136d6029349c866597c] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[@class='filter-link']"
+}
+[1605533266.679][INFO]: Waiting for pending navigations...
+[1605533266.681][INFO]: Done waiting for pending navigations. Status: ok
+[1605533266.699][INFO]: Waiting for pending navigations...
+[1605533266.701][INFO]: Done waiting for pending navigations. Status: ok
+[1605533266.702][INFO]: [9c6415dc8b9a6136d6029349c866597c] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "20166891-b1f1-458c-ad16-6efff433a01f"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0343784c-9ccd-4ed1-b062-18f7eafb6e46"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "90688016-dc84-4138-b790-a7f192cfeab8"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "96546c5f-c966-45ae-b739-6d42982077c5"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c00fa044-52ec-46de-afca-37e1f7895965"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "11538dc3-475f-4343-9ad6-fe96033c3dca"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "b2a4a818-c115-4956-8891-071a00943169"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "fffacaa4-ebb5-4c88-a35c-0e62f144bf17"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0c5a4338-3317-483e-9d89-eea8e7c9f37a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "7dc9fd7a-a832-49aa-be57-22faa917d6ae"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "6d6391f3-8b5f-4a72-8809-fb698254d505"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "489cad76-ca5f-463a-937f-f056dbc89131"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "479dc1e6-e385-451b-a104-a4701f6995ab"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "772ed14d-572d-4190-94f7-31cc2aa96a42"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "ac1fe3bc-0ee2-4cb6-8a2a-cf84c5fa77ef"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "481810a5-74f2-4f78-bcaf-fb4a6cda8739"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "18991824-06f0-4824-a45d-e8691e060b9d"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "166033b4-dad5-4864-9efa-57072331e0ce"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "a9b7bd84-b44f-45fc-bbda-ae4e6596f49f"
+}, "..." ]
+[1605533266.712][INFO]: [9c6415dc8b9a6136d6029349c866597c] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[@class='filter-link']"
+}
+[1605533266.712][INFO]: Waiting for pending navigations...
+[1605533266.714][INFO]: Done waiting for pending navigations. Status: ok
+[1605533266.733][INFO]: Waiting for pending navigations...
+[1605533266.735][INFO]: Done waiting for pending navigations. Status: ok
+[1605533266.735][INFO]: [9c6415dc8b9a6136d6029349c866597c] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "20166891-b1f1-458c-ad16-6efff433a01f"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0343784c-9ccd-4ed1-b062-18f7eafb6e46"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "90688016-dc84-4138-b790-a7f192cfeab8"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "96546c5f-c966-45ae-b739-6d42982077c5"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c00fa044-52ec-46de-afca-37e1f7895965"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "11538dc3-475f-4343-9ad6-fe96033c3dca"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "b2a4a818-c115-4956-8891-071a00943169"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "fffacaa4-ebb5-4c88-a35c-0e62f144bf17"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0c5a4338-3317-483e-9d89-eea8e7c9f37a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "7dc9fd7a-a832-49aa-be57-22faa917d6ae"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "6d6391f3-8b5f-4a72-8809-fb698254d505"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "489cad76-ca5f-463a-937f-f056dbc89131"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "479dc1e6-e385-451b-a104-a4701f6995ab"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "772ed14d-572d-4190-94f7-31cc2aa96a42"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "ac1fe3bc-0ee2-4cb6-8a2a-cf84c5fa77ef"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "481810a5-74f2-4f78-bcaf-fb4a6cda8739"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "18991824-06f0-4824-a45d-e8691e060b9d"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "166033b4-dad5-4864-9efa-57072331e0ce"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "a9b7bd84-b44f-45fc-bbda-ae4e6596f49f"
+}, "..." ]
+[1605533266.949][INFO]: [9c6415dc8b9a6136d6029349c866597c] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[@class='filter-link']"
+}
+[1605533266.949][INFO]: Waiting for pending navigations...
+[1605533266.951][INFO]: Done waiting for pending navigations. Status: ok
+[1605533266.969][INFO]: Waiting for pending navigations...
+[1605533266.971][INFO]: Done waiting for pending navigations. Status: ok
+[1605533266.972][INFO]: [9c6415dc8b9a6136d6029349c866597c] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "20166891-b1f1-458c-ad16-6efff433a01f"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0343784c-9ccd-4ed1-b062-18f7eafb6e46"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "90688016-dc84-4138-b790-a7f192cfeab8"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "96546c5f-c966-45ae-b739-6d42982077c5"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c00fa044-52ec-46de-afca-37e1f7895965"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "11538dc3-475f-4343-9ad6-fe96033c3dca"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "b2a4a818-c115-4956-8891-071a00943169"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "fffacaa4-ebb5-4c88-a35c-0e62f144bf17"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0c5a4338-3317-483e-9d89-eea8e7c9f37a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "7dc9fd7a-a832-49aa-be57-22faa917d6ae"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "6d6391f3-8b5f-4a72-8809-fb698254d505"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "489cad76-ca5f-463a-937f-f056dbc89131"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "479dc1e6-e385-451b-a104-a4701f6995ab"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "772ed14d-572d-4190-94f7-31cc2aa96a42"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "ac1fe3bc-0ee2-4cb6-8a2a-cf84c5fa77ef"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "481810a5-74f2-4f78-bcaf-fb4a6cda8739"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "18991824-06f0-4824-a45d-e8691e060b9d"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "166033b4-dad5-4864-9efa-57072331e0ce"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "a9b7bd84-b44f-45fc-bbda-ae4e6596f49f"
+}, "..." ]
+[1605533266.980][INFO]: [9c6415dc8b9a6136d6029349c866597c] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[@class='filter-link']"
+}
+[1605533266.981][INFO]: Waiting for pending navigations...
+[1605533266.983][INFO]: Done waiting for pending navigations. Status: ok
+[1605533267.001][INFO]: Waiting for pending navigations...
+[1605533267.004][INFO]: Done waiting for pending navigations. Status: ok
+[1605533267.004][INFO]: [9c6415dc8b9a6136d6029349c866597c] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "20166891-b1f1-458c-ad16-6efff433a01f"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0343784c-9ccd-4ed1-b062-18f7eafb6e46"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "90688016-dc84-4138-b790-a7f192cfeab8"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "96546c5f-c966-45ae-b739-6d42982077c5"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c00fa044-52ec-46de-afca-37e1f7895965"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "11538dc3-475f-4343-9ad6-fe96033c3dca"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "b2a4a818-c115-4956-8891-071a00943169"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "fffacaa4-ebb5-4c88-a35c-0e62f144bf17"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0c5a4338-3317-483e-9d89-eea8e7c9f37a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "7dc9fd7a-a832-49aa-be57-22faa917d6ae"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "6d6391f3-8b5f-4a72-8809-fb698254d505"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "489cad76-ca5f-463a-937f-f056dbc89131"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "479dc1e6-e385-451b-a104-a4701f6995ab"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "772ed14d-572d-4190-94f7-31cc2aa96a42"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "ac1fe3bc-0ee2-4cb6-8a2a-cf84c5fa77ef"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "481810a5-74f2-4f78-bcaf-fb4a6cda8739"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "18991824-06f0-4824-a45d-e8691e060b9d"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "166033b4-dad5-4864-9efa-57072331e0ce"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "a9b7bd84-b44f-45fc-bbda-ae4e6596f49f"
+}, "..." ]
+[1605533267.225][INFO]: [9c6415dc8b9a6136d6029349c866597c] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var source = document.documentElement.outerHTML; \nif (!source) { source = new XMLSerializer().serializeToString(document); }\nreturn source;"
+}
+[1605533267.226][INFO]: Waiting for pending navigations...
+[1605533267.228][INFO]: Done waiting for pending navigations. Status: ok
+[1605533267.336][INFO]: Waiting for pending navigations...
+[1605533267.338][INFO]: Done waiting for pending navigations. Status: ok
+[1605533267.338][INFO]: [9c6415dc8b9a6136d6029349c866597c] RESPONSE ExecuteScript "\u003Chtml default-lang=\"lv\" lang=\"lv\" class=\" no-touch\">\u003Chead>\n\u003Cmeta theme=\"1a\">\n\u003Cmeta charset=\"utf-8\">\n\u003Cmeta content=\"IE=edge\" http-equiv=\"X-UA-Compatible\">\n\u003Cscript type=\"text/javascript\" async=\"\" src..."
+[1605533267.558][INFO]: [9c6415dc8b9a6136d6029349c866597c] COMMAND Screenshot {
+
+}
+[1605533267.558][INFO]: Waiting for pending navigations...
+[1605533267.559][INFO]: Done waiting for pending navigations. Status: ok
+[1605533268.077][INFO]: Waiting for pending navigations...
+[1605533268.079][INFO]: Done waiting for pending navigations. Status: ok
+[1605533268.079][INFO]: [9c6415dc8b9a6136d6029349c866597c] RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAAB4AAAAOvCAYAAAAtF9k2AAAAAXNSR0IArs4c6QAAIABJREFUeJzs3XlcVPX++PHXLGwDw44sCTGCiGKK4G7iAqaomFlZmrdsuS63m+VSffv+yqVu21XrW91K6XZbzDQtzTT3zH1L0NxQFHFB2XcY1pn5/cGDc0VQUUEU3s/Ho8ejc..."
+[1605533268.284][INFO]: [9c6415dc8b9a6136d6029349c866597c] COMMAND Quit {
+
+}
+[1605533268.331][INFO]: [9c6415dc8b9a6136d6029349c866597c] RESPONSE Quit

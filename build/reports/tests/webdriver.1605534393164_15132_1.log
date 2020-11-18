@@ -1,0 +1,325 @@
+[1605534393.460][INFO]: Starting ChromeDriver 86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}) on port 15544
+[1605534393.461][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1605534394.234][INFO]: [11b34d124e7e1970dccb772732113eb3] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--no-sandbox" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "C:\\Users\\Windows\\IdeaProjects\\FinalProject\\build\\downloads\\1605534392335_15132_1",
+               "plugins.always_open_pdf_externally": true
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--no-sandbox" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "C:\\Users\\Windows\\IdeaProjects\\FinalProject\\build\\downloads\\1605534392335_15132_1",
+            "plugins.always_open_pdf_externally": true
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1605534394.242][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "C:\\Users\\Windows\\IdeaProjects\\FinalProject\\build\\downloads\\1605534392335_15132_1"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1605534394.242][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1605534394.243][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --no-sandbox --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\Windows\AppData\Local\Temp\scoped_dir6276_419864489" data:,
+[1605534394.948][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1605534396.993][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1605534399.036][INFO]: [11b34d124e7e1970dccb772732113eb3] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "86.0.4240.193",
+      "chrome": {
+         "chromedriverVersion": "86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378})",
+         "userDataDir": "C:\\Users\\Windows\\AppData\\Local\\Temp\\scoped_dir6276_419864489"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:52153"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "11b34d124e7e1970dccb772732113eb3"
+}
+[1605534399.139][INFO]: [11b34d124e7e1970dccb772732113eb3] COMMAND SetWindowRect {
+   "height": 768,
+   "width": 1366
+}
+[1605534399.139][INFO]: Waiting for pending navigations...
+[1605534399.144][INFO]: Done waiting for pending navigations. Status: ok
+[1605534399.269][INFO]: Waiting for pending navigations...
+[1605534399.271][INFO]: Done waiting for pending navigations. Status: ok
+[1605534399.271][INFO]: [11b34d124e7e1970dccb772732113eb3] RESPONSE SetWindowRect {
+   "height": 770,
+   "width": 1368,
+   "x": 8,
+   "y": 8
+}
+[1605534399.285][INFO]: [11b34d124e7e1970dccb772732113eb3] COMMAND SetTimeouts {
+   "pageLoad": 30000
+}
+[1605534399.285][INFO]: [11b34d124e7e1970dccb772732113eb3] RESPONSE SetTimeouts
+[1605534399.312][INFO]: [11b34d124e7e1970dccb772732113eb3] COMMAND Navigate {
+   "url": "https://www.1a.lv/"
+}
+[1605534399.313][INFO]: Waiting for pending navigations...
+[1605534399.315][INFO]: Done waiting for pending navigations. Status: ok
+[1605534399.623][INFO]: Waiting for pending navigations...
+[1605534401.671][INFO]: Done waiting for pending navigations. Status: ok
+[1605534401.671][INFO]: [11b34d124e7e1970dccb772732113eb3] RESPONSE Navigate
+[1605534401.677][INFO]: [11b34d124e7e1970dccb772732113eb3] COMMAND MaximizeWindow {
+
+}
+[1605534401.677][INFO]: Waiting for pending navigations...
+[1605534401.688][INFO]: Done waiting for pending navigations. Status: ok
+[1605534401.812][INFO]: Waiting for pending navigations...
+[1605534401.941][INFO]: Done waiting for pending navigations. Status: ok
+[1605534401.941][INFO]: [11b34d124e7e1970dccb772732113eb3] RESPONSE MaximizeWindow {
+   "height": 840,
+   "width": 1552,
+   "x": -8,
+   "y": -8
+}
+[1605534402.038][INFO]: [11b34d124e7e1970dccb772732113eb3] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//input[@class='sn-suggest-input autocomplete main-search-input']"
+}
+[1605534402.039][INFO]: Waiting for pending navigations...
+[1605534402.049][INFO]: Done waiting for pending navigations. Status: ok
+[1605534402.078][INFO]: Waiting for pending navigations...
+[1605534402.081][INFO]: Done waiting for pending navigations. Status: ok
+[1605534402.082][INFO]: [11b34d124e7e1970dccb772732113eb3] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "df78c6bc-04d7-4b63-9cd3-c1c842521530"
+}
+[1605534402.103][INFO]: [11b34d124e7e1970dccb772732113eb3] COMMAND TypeElement {
+   "id": "df78c6bc-04d7-4b63-9cd3-c1c842521530",
+   "text": "washing machine",
+   "value": [ "w", "a", "s", "h", "i", "n", "g", " ", "m", "a", "c", "h", "i", "n", "e" ]
+}
+[1605534402.103][INFO]: Waiting for pending navigations...
+[1605534402.104][INFO]: Done waiting for pending navigations. Status: ok
+[1605534402.446][INFO]: Waiting for pending navigations...
+[1605534402.464][INFO]: Done waiting for pending navigations. Status: ok
+[1605534402.465][INFO]: [11b34d124e7e1970dccb772732113eb3] RESPONSE TypeElement
+[1605534402.479][INFO]: [11b34d124e7e1970dccb772732113eb3] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@class='main-search__submit']"
+}
+[1605534402.479][INFO]: Waiting for pending navigations...
+[1605534402.491][INFO]: Done waiting for pending navigations. Status: ok
+[1605534402.560][INFO]: Waiting for pending navigations...
+[1605534402.580][INFO]: Done waiting for pending navigations. Status: ok
+[1605534402.580][INFO]: [11b34d124e7e1970dccb772732113eb3] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "9755add2-99a0-4755-bf3f-85b89e85bfbb"
+}
+[1605534402.598][INFO]: [11b34d124e7e1970dccb772732113eb3] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "9755add2-99a0-4755-bf3f-85b89e85bfbb"
+   } ],
+   "script": "var form = arguments[0];\nwhile (form.nodeName != \"FORM\" && form.parentNode) {\n  form = form.parentNode;\n}\nif (!form) { throw Error('Unable to find containing form element'); }\nif (!form.ownerDocument) { throw Error('Unable to find owning document'); }\nvar e = form.ownerDocument.createEvent('Event');\ne.initEvent('submit', true, true);\nif (form.dispatchEvent(e)) { HTMLFormElement.prototype.submit.call(form) }\n"
+}
+[1605534402.598][INFO]: Waiting for pending navigations...
+[1605534402.606][INFO]: Done waiting for pending navigations. Status: ok
+[1605534402.874][INFO]: Waiting for pending navigations...
+[1605534402.946][INFO]: Done waiting for pending navigations. Status: ok
+[1605534402.946][INFO]: [11b34d124e7e1970dccb772732113eb3] RESPONSE ExecuteScript null
+[1605534406.014][INFO]: [11b34d124e7e1970dccb772732113eb3] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//div[@class='filter-block filter-block-collapse active']"
+}
+[1605534406.015][INFO]: Waiting for pending navigations...
+[1605534406.017][INFO]: Done waiting for pending navigations. Status: ok
+[1605534406.046][INFO]: Waiting for pending navigations...
+[1605534406.048][INFO]: Done waiting for pending navigations. Status: ok
+[1605534406.048][INFO]: [11b34d124e7e1970dccb772732113eb3] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "29a430ce-c679-44b6-8799-e314210ea0f4"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "1d53c586-5848-4ae5-b0b4-a7abcf0f5907"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "48963a8a-9109-4292-b78c-acac9c774ef2"
+} ]
+[1605534406.060][INFO]: [11b34d124e7e1970dccb772732113eb3] COMMAND GetElementRect {
+   "id": "1d53c586-5848-4ae5-b0b4-a7abcf0f5907"
+}
+[1605534406.060][INFO]: Waiting for pending navigations...
+[1605534406.061][INFO]: Done waiting for pending navigations. Status: ok
+[1605534406.081][INFO]: Waiting for pending navigations...
+[1605534406.083][INFO]: Done waiting for pending navigations. Status: ok
+[1605534406.083][INFO]: [11b34d124e7e1970dccb772732113eb3] RESPONSE GetElementRect {
+   "height": 384.0,
+   "width": 238.0,
+   "x": 150.60000610351562,
+   "y": 1014.4000244140625
+}
+[1605534406.091][INFO]: [11b34d124e7e1970dccb772732113eb3] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "window.scrollTo(150, 1014)"
+}
+[1605534406.092][INFO]: Waiting for pending navigations...
+[1605534406.093][INFO]: Done waiting for pending navigations. Status: ok
+[1605534406.103][INFO]: Waiting for pending navigations...
+[1605534406.105][INFO]: Done waiting for pending navigations. Status: ok
+[1605534406.105][INFO]: [11b34d124e7e1970dccb772732113eb3] RESPONSE ExecuteScript null
+[1605534409.114][INFO]: [11b34d124e7e1970dccb772732113eb3] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//span[@class='filter-link__label']"
+}
+[1605534409.114][INFO]: Waiting for pending navigations...
+[1605534409.116][INFO]: Done waiting for pending navigations. Status: ok
+[1605534409.143][INFO]: Waiting for pending navigations...
+[1605534409.144][INFO]: Done waiting for pending navigations. Status: ok
+[1605534409.145][INFO]: [11b34d124e7e1970dccb772732113eb3] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "dce03986-abfe-47ad-b171-89fb06d5d2cb"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "5bc044f0-593f-4991-8226-1dcb8f68ee75"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "af2aefe0-540a-461e-8fbf-41f45955af4f"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e8cfbb3b-9d8b-4829-9d55-1d3d8e0bb53e"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "3b2d15f7-65d4-4798-bc5e-49e1b77b4dfb"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "fbba8cb6-40e0-4021-9dc5-0a70c98cc3e1"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "ee110ebe-d799-49e5-b89a-078c3d1f8865"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "bcf14578-3f38-44c9-bca8-95991a5b6e59"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c8d1c2a6-f5f1-4d7a-9573-24404d9db311"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "4c0552c7-67a8-418b-a52c-b977054ab096"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8f300932-2db2-4472-840c-5931045f442d"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "6cf1771f-7e0d-4fb5-940b-71cc1d12dbce"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c9c742da-6c57-4281-97c4-39a51013eb82"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "5af0e0af-508e-4478-9b9e-ae3edb6f0c7a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "3c2ddc15-1642-4845-9605-00be795a59a3"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "d74d9905-4502-4168-8d4f-52c3f713b50b"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "ea32127f-e2eb-4097-bd10-d97bc8418e10"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "38e4dec2-3c00-4e1d-8b5a-3042ae26e10f"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "1f06a8a9-2c44-4848-9710-e4767a6d565b"
+}, "..." ]
+[1605534409.161][INFO]: [11b34d124e7e1970dccb772732113eb3] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "d74d9905-4502-4168-8d4f-52c3f713b50b"
+   } ],
+   "script": "var form = arguments[0];\nwhile (form.nodeName != \"FORM\" && form.parentNode) {\n  form = form.parentNode;\n}\nif (!form) { throw Error('Unable to find containing form element'); }\nif (!form.ownerDocument) { throw Error('Unable to find owning document'); }\nvar e = form.ownerDocument.createEvent('Event');\ne.initEvent('submit', true, true);\nif (form.dispatchEvent(e)) { HTMLFormElement.prototype.submit.call(form) }\n"
+}
+[1605534409.161][INFO]: Waiting for pending navigations...
+[1605534409.163][INFO]: Done waiting for pending navigations. Status: ok
+[1605534409.174][INFO]: Waiting for pending navigations...
+[1605534409.175][INFO]: Done waiting for pending navigations. Status: ok
+[1605534409.175][INFO]: [11b34d124e7e1970dccb772732113eb3] RESPONSE ExecuteScript ERROR javascript error: Unable to find owning document
+  (Session info: chrome=86.0.4240.193)
+[1605534409.231][INFO]: [11b34d124e7e1970dccb772732113eb3] COMMAND Quit {
+
+}
+[1605534409.277][INFO]: [11b34d124e7e1970dccb772732113eb3] RESPONSE Quit

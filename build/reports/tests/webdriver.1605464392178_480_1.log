@@ -1,0 +1,530 @@
+[1605464392.350][INFO]: Starting ChromeDriver 86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}) on port 17068
+[1605464392.350][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1605464393.007][INFO]: [3429946036549497d7c22269bc3afe15] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--no-sandbox" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "C:\\Users\\Windows\\IdeaProjects\\FinalProject\\build\\downloads\\1605464391623_480_1",
+               "plugins.always_open_pdf_externally": true
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--no-sandbox" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "C:\\Users\\Windows\\IdeaProjects\\FinalProject\\build\\downloads\\1605464391623_480_1",
+            "plugins.always_open_pdf_externally": true
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1605464393.012][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "C:\\Users\\Windows\\IdeaProjects\\FinalProject\\build\\downloads\\1605464391623_480_1"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1605464393.012][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1605464393.013][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --no-sandbox --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\Windows\AppData\Local\Temp\scoped_dir10696_178508758" data:,
+[1605464393.601][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1605464395.625][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1605464397.654][INFO]: [3429946036549497d7c22269bc3afe15] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "86.0.4240.193",
+      "chrome": {
+         "chromedriverVersion": "86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378})",
+         "userDataDir": "C:\\Users\\Windows\\AppData\\Local\\Temp\\scoped_dir10696_178508758"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:62606"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "3429946036549497d7c22269bc3afe15"
+}
+[1605464397.682][INFO]: [3429946036549497d7c22269bc3afe15] COMMAND SetWindowRect {
+   "height": 768,
+   "width": 1366
+}
+[1605464397.682][INFO]: Waiting for pending navigations...
+[1605464397.685][INFO]: Done waiting for pending navigations. Status: ok
+[1605464397.805][INFO]: Waiting for pending navigations...
+[1605464397.806][INFO]: Done waiting for pending navigations. Status: ok
+[1605464397.806][INFO]: [3429946036549497d7c22269bc3afe15] RESPONSE SetWindowRect {
+   "height": 770,
+   "width": 1368,
+   "x": 8,
+   "y": 8
+}
+[1605464397.811][INFO]: [3429946036549497d7c22269bc3afe15] COMMAND SetTimeouts {
+   "pageLoad": 30000
+}
+[1605464397.811][INFO]: [3429946036549497d7c22269bc3afe15] RESPONSE SetTimeouts
+[1605464397.818][INFO]: [3429946036549497d7c22269bc3afe15] COMMAND Navigate {
+   "url": "https://www.1a.lv/"
+}
+[1605464397.818][INFO]: Waiting for pending navigations...
+[1605464397.819][INFO]: Done waiting for pending navigations. Status: ok
+[1605464398.114][INFO]: Waiting for pending navigations...
+[1605464399.584][INFO]: Done waiting for pending navigations. Status: ok
+[1605464399.584][INFO]: [3429946036549497d7c22269bc3afe15] RESPONSE Navigate
+[1605464399.588][INFO]: [3429946036549497d7c22269bc3afe15] COMMAND MaximizeWindow {
+
+}
+[1605464399.588][INFO]: Waiting for pending navigations...
+[1605464399.597][INFO]: Done waiting for pending navigations. Status: ok
+[1605464399.711][INFO]: Waiting for pending navigations...
+[1605464399.732][INFO]: Done waiting for pending navigations. Status: ok
+[1605464399.732][INFO]: [3429946036549497d7c22269bc3afe15] RESPONSE MaximizeWindow {
+   "height": 840,
+   "width": 1552,
+   "x": -8,
+   "y": -8
+}
+[1605464399.784][INFO]: [3429946036549497d7c22269bc3afe15] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//input[@class='sn-suggest-input autocomplete main-search-input']"
+}
+[1605464399.784][INFO]: Waiting for pending navigations...
+[1605464399.784][INFO]: Done waiting for pending navigations. Status: ok
+[1605464399.810][INFO]: Waiting for pending navigations...
+[1605464399.813][INFO]: Done waiting for pending navigations. Status: ok
+[1605464399.813][INFO]: [3429946036549497d7c22269bc3afe15] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "77a6f504-b4ee-4431-a967-7420aa6fca91"
+}
+[1605464399.820][INFO]: [3429946036549497d7c22269bc3afe15] COMMAND TypeElement {
+   "id": "77a6f504-b4ee-4431-a967-7420aa6fca91",
+   "text": "clock",
+   "value": [ "c", "l", "o", "c", "k" ]
+}
+[1605464399.820][INFO]: Waiting for pending navigations...
+[1605464399.821][INFO]: Done waiting for pending navigations. Status: ok
+[1605464399.920][INFO]: Waiting for pending navigations...
+[1605464399.929][INFO]: Done waiting for pending navigations. Status: ok
+[1605464399.929][INFO]: [3429946036549497d7c22269bc3afe15] RESPONSE TypeElement
+[1605464399.933][INFO]: [3429946036549497d7c22269bc3afe15] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@class='main-search__submit']"
+}
+[1605464399.933][INFO]: Waiting for pending navigations...
+[1605464399.934][INFO]: Done waiting for pending navigations. Status: ok
+[1605464399.951][INFO]: Waiting for pending navigations...
+[1605464399.952][INFO]: Done waiting for pending navigations. Status: ok
+[1605464399.952][INFO]: [3429946036549497d7c22269bc3afe15] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "a65ac24f-3ca7-4d4e-9b0a-0d0f7b85b447"
+}
+[1605464399.958][INFO]: [3429946036549497d7c22269bc3afe15] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "a65ac24f-3ca7-4d4e-9b0a-0d0f7b85b447"
+   } ],
+   "script": "var form = arguments[0];\nwhile (form.nodeName != \"FORM\" && form.parentNode) {\n  form = form.parentNode;\n}\nif (!form) { throw Error('Unable to find containing form element'); }\nif (!form.ownerDocument) { throw Error('Unable to find owning document'); }\nvar e = form.ownerDocument.createEvent('Event');\ne.initEvent('submit', true, true);\nif (form.dispatchEvent(e)) { HTMLFormElement.prototype.submit.call(form) }\n"
+}
+[1605464399.958][INFO]: Waiting for pending navigations...
+[1605464400.012][INFO]: Done waiting for pending navigations. Status: ok
+[1605464400.063][INFO]: Waiting for pending navigations...
+[1605464400.074][INFO]: Done waiting for pending navigations. Status: ok
+[1605464400.074][INFO]: [3429946036549497d7c22269bc3afe15] RESPONSE ExecuteScript null
+[1605464405.110][INFO]: [3429946036549497d7c22269bc3afe15] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@class='row sn-filter-toolbox-row']"
+}
+[1605464405.111][INFO]: Waiting for pending navigations...
+[1605464405.112][INFO]: Done waiting for pending navigations. Status: ok
+[1605464405.130][INFO]: Waiting for pending navigations...
+[1605464405.131][INFO]: Done waiting for pending navigations. Status: ok
+[1605464405.131][INFO]: [3429946036549497d7c22269bc3afe15] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "745826b4-2284-4aa9-aa29-a2a205d6a58d"
+}
+[1605464405.134][INFO]: [3429946036549497d7c22269bc3afe15] COMMAND GetElementRect {
+   "id": "745826b4-2284-4aa9-aa29-a2a205d6a58d"
+}
+[1605464405.134][INFO]: Waiting for pending navigations...
+[1605464405.137][INFO]: Done waiting for pending navigations. Status: ok
+[1605464405.149][INFO]: Waiting for pending navigations...
+[1605464405.151][INFO]: Done waiting for pending navigations. Status: ok
+[1605464405.151][INFO]: [3429946036549497d7c22269bc3afe15] RESPONSE GetElementRect {
+   "height": 63.0,
+   "width": 938.0,
+   "x": 460.6000061035156,
+   "y": 707.0
+}
+[1605464405.155][INFO]: [3429946036549497d7c22269bc3afe15] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "window.scrollTo(460, 707)"
+}
+[1605464405.155][INFO]: Waiting for pending navigations...
+[1605464405.156][INFO]: Done waiting for pending navigations. Status: ok
+[1605464405.160][INFO]: Waiting for pending navigations...
+[1605464405.161][INFO]: Done waiting for pending navigations. Status: ok
+[1605464405.161][INFO]: [3429946036549497d7c22269bc3afe15] RESPONSE ExecuteScript null
+[1605464410.180][INFO]: [3429946036549497d7c22269bc3afe15] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//div[@class='new-product-item catalog-taxons-product']"
+}
+[1605464410.180][INFO]: Waiting for pending navigations...
+[1605464410.181][INFO]: Done waiting for pending navigations. Status: ok
+[1605464410.194][INFO]: Waiting for pending navigations...
+[1605464410.195][INFO]: Done waiting for pending navigations. Status: ok
+[1605464410.195][INFO]: [3429946036549497d7c22269bc3afe15] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "db0220f3-a21b-475b-99ac-d0463af3d5df"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "b6acfe23-ec82-4526-9f7d-06904cc78958"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "7722c3fa-7dbf-442b-9a96-1095234ddd30"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "b9948eae-c881-49c5-b441-607008da344d"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "09e6d1ba-0e0a-415f-8329-ec23e3cb3d31"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e18a4c91-d5bd-4c65-bdb3-1b2cfa92d145"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "ab339659-45b9-4d49-9584-37929f9f659b"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "b22f2d3a-7fd7-4a7a-b691-f317dc17ece5"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "92ecf0b1-0073-4c7e-9416-64177625b3c2"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "681614a2-b24a-4ced-a7dd-da8cb6350bae"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f681433b-b579-43cc-a3fe-d33a44cdb435"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c7a59f68-d6d7-423e-b382-1c82e3bcaa37"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "ba1b6caf-ba61-4fc9-b2f2-6c2d02670404"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "05466e06-5821-4524-a03b-d2f2dc723d96"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "ab1b5128-077a-4051-a02d-3eefa3ea0318"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "5497e9a5-62de-4db2-b27c-b3a13d741e0f"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "5a77571d-31d7-4fe2-bd16-a3794a574a32"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f1b05fd0-8753-4a13-b9f6-cece05fe70c7"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "63e120c8-b526-47c1-b8fb-f2563e877dfc"
+}, "..." ]
+[1605464410.218][INFO]: [3429946036549497d7c22269bc3afe15] COMMAND PerformActions {
+   "actions": [ {
+      "actions": [ {
+         "duration": 100,
+         "origin": {
+            "ELEMENT": "7722c3fa-7dbf-442b-9a96-1095234ddd30",
+            "element-6066-11e4-a52e-4f735466cecf": "7722c3fa-7dbf-442b-9a96-1095234ddd30"
+         },
+         "type": "pointerMove",
+         "x": 0,
+         "y": 0
+      } ],
+      "id": "default mouse",
+      "parameters": {
+         "pointerType": "mouse"
+      },
+      "type": "pointer"
+   } ]
+}
+[1605464410.218][INFO]: Waiting for pending navigations...
+[1605464410.219][INFO]: Done waiting for pending navigations. Status: ok
+[1605464410.345][INFO]: Waiting for pending navigations...
+[1605464410.347][INFO]: Done waiting for pending navigations. Status: ok
+[1605464410.347][INFO]: [3429946036549497d7c22269bc3afe15] RESPONSE PerformActions
+[1605464411.355][INFO]: [3429946036549497d7c22269bc3afe15] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='4M Thinking Kits Tell Time Learning Clock 4689']"
+}
+[1605464411.355][INFO]: Waiting for pending navigations...
+[1605464411.356][INFO]: Done waiting for pending navigations. Status: ok
+[1605464411.369][INFO]: Waiting for pending navigations...
+[1605464411.370][INFO]: Done waiting for pending navigations. Status: ok
+[1605464411.370][INFO]: [3429946036549497d7c22269bc3afe15] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"*[name='4M Thinking Kits Tell Time Learning Clock 4689']"}
+  (Session info: chrome=86.0.4240.193)
+[1605464411.593][INFO]: [3429946036549497d7c22269bc3afe15] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='4M Thinking Kits Tell Time Learning Clock 4689']"
+}
+[1605464411.593][INFO]: Waiting for pending navigations...
+[1605464411.596][INFO]: Done waiting for pending navigations. Status: ok
+[1605464411.613][INFO]: Waiting for pending navigations...
+[1605464411.615][INFO]: Done waiting for pending navigations. Status: ok
+[1605464411.615][INFO]: [3429946036549497d7c22269bc3afe15] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"*[name='4M Thinking Kits Tell Time Learning Clock 4689']"}
+  (Session info: chrome=86.0.4240.193)
+[1605464411.842][INFO]: [3429946036549497d7c22269bc3afe15] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='4M Thinking Kits Tell Time Learning Clock 4689']"
+}
+[1605464411.842][INFO]: Waiting for pending navigations...
+[1605464411.843][INFO]: Done waiting for pending navigations. Status: ok
+[1605464411.848][INFO]: Waiting for pending navigations...
+[1605464411.849][INFO]: Done waiting for pending navigations. Status: ok
+[1605464411.849][INFO]: [3429946036549497d7c22269bc3afe15] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"*[name='4M Thinking Kits Tell Time Learning Clock 4689']"}
+  (Session info: chrome=86.0.4240.193)
+[1605464412.061][INFO]: [3429946036549497d7c22269bc3afe15] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='4M Thinking Kits Tell Time Learning Clock 4689']"
+}
+[1605464412.061][INFO]: Waiting for pending navigations...
+[1605464412.063][INFO]: Done waiting for pending navigations. Status: ok
+[1605464412.077][INFO]: Waiting for pending navigations...
+[1605464412.079][INFO]: Done waiting for pending navigations. Status: ok
+[1605464412.079][INFO]: [3429946036549497d7c22269bc3afe15] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"*[name='4M Thinking Kits Tell Time Learning Clock 4689']"}
+  (Session info: chrome=86.0.4240.193)
+[1605464412.298][INFO]: [3429946036549497d7c22269bc3afe15] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='4M Thinking Kits Tell Time Learning Clock 4689']"
+}
+[1605464412.298][INFO]: Waiting for pending navigations...
+[1605464412.299][INFO]: Done waiting for pending navigations. Status: ok
+[1605464412.304][INFO]: Waiting for pending navigations...
+[1605464412.306][INFO]: Done waiting for pending navigations. Status: ok
+[1605464412.306][INFO]: [3429946036549497d7c22269bc3afe15] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"*[name='4M Thinking Kits Tell Time Learning Clock 4689']"}
+  (Session info: chrome=86.0.4240.193)
+[1605464412.514][INFO]: [3429946036549497d7c22269bc3afe15] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='4M Thinking Kits Tell Time Learning Clock 4689']"
+}
+[1605464412.514][INFO]: Waiting for pending navigations...
+[1605464412.515][INFO]: Done waiting for pending navigations. Status: ok
+[1605464412.520][INFO]: Waiting for pending navigations...
+[1605464412.521][INFO]: Done waiting for pending navigations. Status: ok
+[1605464412.521][INFO]: [3429946036549497d7c22269bc3afe15] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"*[name='4M Thinking Kits Tell Time Learning Clock 4689']"}
+  (Session info: chrome=86.0.4240.193)
+[1605464412.738][INFO]: [3429946036549497d7c22269bc3afe15] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='4M Thinking Kits Tell Time Learning Clock 4689']"
+}
+[1605464412.738][INFO]: Waiting for pending navigations...
+[1605464412.740][INFO]: Done waiting for pending navigations. Status: ok
+[1605464412.745][INFO]: Waiting for pending navigations...
+[1605464412.746][INFO]: Done waiting for pending navigations. Status: ok
+[1605464412.746][INFO]: [3429946036549497d7c22269bc3afe15] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"*[name='4M Thinking Kits Tell Time Learning Clock 4689']"}
+  (Session info: chrome=86.0.4240.193)
+[1605464412.957][INFO]: [3429946036549497d7c22269bc3afe15] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='4M Thinking Kits Tell Time Learning Clock 4689']"
+}
+[1605464412.957][INFO]: Waiting for pending navigations...
+[1605464412.959][INFO]: Done waiting for pending navigations. Status: ok
+[1605464412.963][INFO]: Waiting for pending navigations...
+[1605464412.965][INFO]: Done waiting for pending navigations. Status: ok
+[1605464412.965][INFO]: [3429946036549497d7c22269bc3afe15] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"*[name='4M Thinking Kits Tell Time Learning Clock 4689']"}
+  (Session info: chrome=86.0.4240.193)
+[1605464413.179][INFO]: [3429946036549497d7c22269bc3afe15] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='4M Thinking Kits Tell Time Learning Clock 4689']"
+}
+[1605464413.179][INFO]: Waiting for pending navigations...
+[1605464413.182][INFO]: Done waiting for pending navigations. Status: ok
+[1605464413.191][INFO]: Waiting for pending navigations...
+[1605464413.192][INFO]: Done waiting for pending navigations. Status: ok
+[1605464413.192][INFO]: [3429946036549497d7c22269bc3afe15] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"*[name='4M Thinking Kits Tell Time Learning Clock 4689']"}
+  (Session info: chrome=86.0.4240.193)
+[1605464413.413][INFO]: [3429946036549497d7c22269bc3afe15] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='4M Thinking Kits Tell Time Learning Clock 4689']"
+}
+[1605464413.413][INFO]: Waiting for pending navigations...
+[1605464413.415][INFO]: Done waiting for pending navigations. Status: ok
+[1605464413.433][INFO]: Waiting for pending navigations...
+[1605464413.435][INFO]: Done waiting for pending navigations. Status: ok
+[1605464413.435][INFO]: [3429946036549497d7c22269bc3afe15] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"*[name='4M Thinking Kits Tell Time Learning Clock 4689']"}
+  (Session info: chrome=86.0.4240.193)
+[1605464413.649][INFO]: [3429946036549497d7c22269bc3afe15] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='4M Thinking Kits Tell Time Learning Clock 4689']"
+}
+[1605464413.650][INFO]: Waiting for pending navigations...
+[1605464413.651][INFO]: Done waiting for pending navigations. Status: ok
+[1605464413.655][INFO]: Waiting for pending navigations...
+[1605464413.656][INFO]: Done waiting for pending navigations. Status: ok
+[1605464413.656][INFO]: [3429946036549497d7c22269bc3afe15] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"*[name='4M Thinking Kits Tell Time Learning Clock 4689']"}
+  (Session info: chrome=86.0.4240.193)
+[1605464413.868][INFO]: [3429946036549497d7c22269bc3afe15] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='4M Thinking Kits Tell Time Learning Clock 4689']"
+}
+[1605464413.868][INFO]: Waiting for pending navigations...
+[1605464413.869][INFO]: Done waiting for pending navigations. Status: ok
+[1605464413.878][INFO]: Waiting for pending navigations...
+[1605464413.880][INFO]: Done waiting for pending navigations. Status: ok
+[1605464413.880][INFO]: [3429946036549497d7c22269bc3afe15] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"*[name='4M Thinking Kits Tell Time Learning Clock 4689']"}
+  (Session info: chrome=86.0.4240.193)
+[1605464414.103][INFO]: [3429946036549497d7c22269bc3afe15] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='4M Thinking Kits Tell Time Learning Clock 4689']"
+}
+[1605464414.103][INFO]: Waiting for pending navigations...
+[1605464414.105][INFO]: Done waiting for pending navigations. Status: ok
+[1605464414.110][INFO]: Waiting for pending navigations...
+[1605464414.111][INFO]: Done waiting for pending navigations. Status: ok
+[1605464414.111][INFO]: [3429946036549497d7c22269bc3afe15] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"*[name='4M Thinking Kits Tell Time Learning Clock 4689']"}
+  (Session info: chrome=86.0.4240.193)
+[1605464414.320][INFO]: [3429946036549497d7c22269bc3afe15] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='4M Thinking Kits Tell Time Learning Clock 4689']"
+}
+[1605464414.320][INFO]: Waiting for pending navigations...
+[1605464414.321][INFO]: Done waiting for pending navigations. Status: ok
+[1605464414.327][INFO]: Waiting for pending navigations...
+[1605464414.328][INFO]: Done waiting for pending navigations. Status: ok
+[1605464414.328][INFO]: [3429946036549497d7c22269bc3afe15] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"*[name='4M Thinking Kits Tell Time Learning Clock 4689']"}
+  (Session info: chrome=86.0.4240.193)
+[1605464414.541][INFO]: [3429946036549497d7c22269bc3afe15] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='4M Thinking Kits Tell Time Learning Clock 4689']"
+}
+[1605464414.541][INFO]: Waiting for pending navigations...
+[1605464414.543][INFO]: Done waiting for pending navigations. Status: ok
+[1605464414.550][INFO]: Waiting for pending navigations...
+[1605464414.551][INFO]: Done waiting for pending navigations. Status: ok
+[1605464414.551][INFO]: [3429946036549497d7c22269bc3afe15] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"*[name='4M Thinking Kits Tell Time Learning Clock 4689']"}
+  (Session info: chrome=86.0.4240.193)
+[1605464414.760][INFO]: [3429946036549497d7c22269bc3afe15] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='4M Thinking Kits Tell Time Learning Clock 4689']"
+}
+[1605464414.760][INFO]: Waiting for pending navigations...
+[1605464414.761][INFO]: Done waiting for pending navigations. Status: ok
+[1605464414.766][INFO]: Waiting for pending navigations...
+[1605464414.767][INFO]: Done waiting for pending navigations. Status: ok
+[1605464414.767][INFO]: [3429946036549497d7c22269bc3afe15] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"*[name='4M Thinking Kits Tell Time Learning Clock 4689']"}
+  (Session info: chrome=86.0.4240.193)
+[1605464414.981][INFO]: [3429946036549497d7c22269bc3afe15] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='4M Thinking Kits Tell Time Learning Clock 4689']"
+}
+[1605464414.981][INFO]: Waiting for pending navigations...
+[1605464414.982][INFO]: Done waiting for pending navigations. Status: ok
+[1605464414.987][INFO]: Waiting for pending navigations...
+[1605464414.988][INFO]: Done waiting for pending navigations. Status: ok
+[1605464414.988][INFO]: [3429946036549497d7c22269bc3afe15] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"*[name='4M Thinking Kits Tell Time Learning Clock 4689']"}
+  (Session info: chrome=86.0.4240.193)
+[1605464415.201][INFO]: [3429946036549497d7c22269bc3afe15] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='4M Thinking Kits Tell Time Learning Clock 4689']"
+}
+[1605464415.202][INFO]: Waiting for pending navigations...
+[1605464415.204][INFO]: Done waiting for pending navigations. Status: ok
+[1605464415.214][INFO]: Waiting for pending navigations...
+[1605464415.215][INFO]: Done waiting for pending navigations. Status: ok
+[1605464415.215][INFO]: [3429946036549497d7c22269bc3afe15] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"*[name='4M Thinking Kits Tell Time Learning Clock 4689']"}
+  (Session info: chrome=86.0.4240.193)
+[1605464415.425][INFO]: [3429946036549497d7c22269bc3afe15] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var source = document.documentElement.outerHTML; \nif (!source) { source = new XMLSerializer().serializeToString(document); }\nreturn source;"
+}
+[1605464415.425][INFO]: Waiting for pending navigations...
+[1605464415.426][INFO]: Done waiting for pending navigations. Status: ok
+[1605464415.455][INFO]: Waiting for pending navigations...
+[1605464415.456][INFO]: Done waiting for pending navigations. Status: ok
+[1605464415.456][INFO]: [3429946036549497d7c22269bc3afe15] RESPONSE ExecuteScript "\u003Chtml default-lang=\"lv\" lang=\"lv\" class=\" no-touch\">\u003Chead>\n\u003Cmeta theme=\"1a\">\n\u003Cmeta charset=\"utf-8\">\n\u003Cmeta content=\"IE=edge\" http-equiv=\"X-UA-Compatible\">\n\u003Cscript type=\"text/javascript\" async=\"\" src..."
+[1605464415.529][INFO]: [3429946036549497d7c22269bc3afe15] COMMAND Screenshot {
+
+}
+[1605464415.529][INFO]: Waiting for pending navigations...
+[1605464415.530][INFO]: Done waiting for pending navigations. Status: ok
+[1605464415.907][INFO]: Waiting for pending navigations...
+[1605464415.908][INFO]: Done waiting for pending navigations. Status: ok
+[1605464415.908][INFO]: [3429946036549497d7c22269bc3afe15] RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAAB4AAAAOvCAYAAAAtF9k2AAAAAXNSR0IArs4c6QAAIABJREFUeJzs3X1cz/f+x/GHKGkpEtJUW2tD61CLL8YxbLncYjvtws4wc4izNbs4bWdsP5wtNg4OzSYXc9E2Z8M5yhaTmVntkIuwFhGOOhTSlFSK+v2RvroulK6e99vNTX0+7..."
+[1605464415.994][INFO]: [3429946036549497d7c22269bc3afe15] COMMAND Quit {
+
+}
+[1605464416.020][INFO]: [3429946036549497d7c22269bc3afe15] RESPONSE Quit
