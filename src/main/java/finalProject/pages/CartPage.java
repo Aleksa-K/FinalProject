@@ -9,6 +9,6 @@ public class CartPage {
 
     public void acceptPurchase(){
         $(By.xpath("//input[@name='commit']")).scrollTo().submit();
-        sleep(3000);
+     //   sleep(3000);
     }
 }
