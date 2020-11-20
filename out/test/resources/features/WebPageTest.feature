@@ -4,6 +4,7 @@ Feature: Buy a product
 
   Background:
     Given Open the Chrome browser and load the URL
+    And Validate that page has been loaded
 
 
   Scenario: Search a product
@@ -14,11 +15,15 @@ Feature: Buy a product
     And Select a product and click on it
     And Add a product to the cart
     And Go to the cart
+    And Validate product name
     And Accept purchase
     And Choose to buy without authorization
+    And Validate that page has been loaded
     And Fill the shipping form
     And Select shipping method
+    And Validate that page has been loaded
     And Select payment method
+    And Validate product price
 
 
 
