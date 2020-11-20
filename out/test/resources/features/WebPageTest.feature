@@ -7,7 +7,7 @@ Feature: Buy a product
 
 
   Scenario: Search a product
-    Given Enter "watch" to the search field
+    Given Enter watch to the search field
     And  Press search button
     When Choose a product brand
     Then Choose TOP product
@@ -16,6 +16,9 @@ Feature: Buy a product
     And Go to the cart
     And Accept purchase
     And Choose to buy without authorization
+    And Fill the shipping form
+    And Select shipping method
+    And Select payment method
 
 
 

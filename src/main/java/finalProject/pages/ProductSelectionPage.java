@@ -9,15 +9,16 @@ import static com.codeborne.selenide.Selenide.*;
 public class ProductSelectionPage {
 
     public void brandSelection() {
-        $$(By.xpath("//div[@class='filter-block filter-block-collapse active']")).get(0).scrollTo();
+        $$(By.xpath("//div[@class='filter-block filter-block-collapse active']")).get(1).scrollTo();
         sleep(1000);
-        $$(By.xpath("//span[@class='filter-link__label']")).get(6).click();
+        $$(By.xpath("//span[@class='filter-link__label']")).get(11).click();
 
 
     }
 
     public void mostPopularProduct() {
         $$(By.xpath("//div[@class='filter-block filter-block-collapse active']")).get(0).scrollTo();
+        sleep(1000);
         $$(By.xpath("//span[@class='filter-link__label']")).get(4).click();
 
 

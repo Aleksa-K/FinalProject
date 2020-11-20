@@ -16,6 +16,9 @@ Feature: Buy a product
     And Go to the cart
     And Accept purchase
     And Choose to buy without authorization
+    And Fill the shipping form
+    And Select shipping method
+    And Select payment method
 
 
 
