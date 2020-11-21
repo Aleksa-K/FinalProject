@@ -8,7 +8,7 @@ import org.openqa.selenium.By;
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.sleep;
 import static com.codeborne.selenide.WebDriverRunner.source;
-import static net.bytebuddy.implementation.FixedValue.value;
+
 
 public class PaymentPage {
 
@@ -18,8 +18,9 @@ public class PaymentPage {
         sleep(1000);
     }
 
-    public void priceAssertion(By price) {
-        $(By.xpath("//span[@class='checkout-order-summary-total__price']")).shouldHave((Condition) value(price));
+    public void priceAssertion() {
+
+        $(By.xpath("//span[@class='checkout-order-summary-total__price']")).shouldHave(Condition.text("429,00 €"));
     }
 
     public void validateAPage() {
