@@ -7,6 +7,7 @@ import static com.codeborne.selenide.Selenide.*;
 
 public class ProductPage {
 
+
     public void addProductToTheCart() {
         $(By.xpath("//div[@class='products-delivery-options-tabs']")).scrollIntoView(atBottom());
         sleep(1000);

@@ -18,10 +18,10 @@ Feature: Buy a product
     And Validate product name
     And Accept purchase
     And Choose to buy without authorization
-    And Validate that page has been loaded
+    And Validate page has been loaded
     And Fill the shipping form
     And Select shipping method
-    And Validate that page has been loaded
+    And Validate if a page has loaded
     And Select payment method
     And Validate product price
 

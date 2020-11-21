@@ -1,12 +1,8 @@
 package finalProject.pages;
 
 
-import com.codeborne.selenide.Condition;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
 
-
-import static com.codeborne.selenide.Selectors.*;
 import static com.codeborne.selenide.Selenide.*;
 
 public class ProductSelectionPage {

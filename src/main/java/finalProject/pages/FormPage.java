@@ -1,9 +1,11 @@
 package finalProject.pages;
 
 
+import com.codeborne.selenide.impl.Html;
 import org.openqa.selenium.By;
 
 import static com.codeborne.selenide.Selenide.*;
+import static com.codeborne.selenide.WebDriverRunner.source;
 
 public class FormPage {
 
@@ -23,5 +25,8 @@ public class FormPage {
         sleep(1000);
     }
 
+    public void validateThePage() {
+        Html.text.containsCaseSensitive(source(), "Piegādes informācija - 1a.lv");
 
+    }
 }

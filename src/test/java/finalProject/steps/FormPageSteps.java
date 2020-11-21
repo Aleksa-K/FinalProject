@@ -16,4 +16,8 @@ public class FormPageSteps {
 
     }
 
+    @And("^Validate page has been loaded$")
+    public void validatePageHasBeenLoaded() {
+        formPage.validateThePage();
+    }
 }

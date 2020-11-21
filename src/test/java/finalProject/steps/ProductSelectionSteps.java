@@ -27,6 +27,4 @@ public class ProductSelectionSteps {
         selectionPage.selectProduct(productModel.getProductName());
 
     }
-
-
 }

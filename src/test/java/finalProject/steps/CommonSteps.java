@@ -3,17 +3,15 @@ package finalProject.steps;
 
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
+import finalProject.pages.CommonPage;
 
 
-import static com.codeborne.selenide.Condition.disappears;
-
-import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.*;
 
 import static com.codeborne.selenide.WebDriverRunner.getWebDriver;
 
-public class ComonSteps {
-
+public class CommonSteps {
+    CommonPage commonPage = new CommonPage();
 
     @Given("^Open the Chrome browser and load the URL$")
     public void openTheChromeBrowser() {
@@ -26,6 +24,6 @@ public class ComonSteps {
 
     @And("Validate that page has been loaded")
     public void validateThatPageHasBeenLoaded() {
-        $(byText("Loading")).waitUntil(disappears, 20000);
+        commonPage.validatePage();
     }
 }
