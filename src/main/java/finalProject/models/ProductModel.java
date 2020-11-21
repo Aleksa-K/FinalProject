@@ -2,8 +2,8 @@ package finalProject.models;
 
 public class ProductModel {
 
-    private String productName = "Apple Watch SE GPS 40mm Silver Aluminum White Sport Band";
-    private String productPrice = "299,00 €";
+    private String productName = "Apple Watch Series 6 GPS 40mm Space Gray Aluminum Black Sport Band";
+    private String productPrice = "429,00 €";
 
     public String getProductName() {
         return productName;

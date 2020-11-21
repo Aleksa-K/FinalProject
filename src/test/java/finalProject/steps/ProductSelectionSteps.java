@@ -3,9 +3,11 @@ package finalProject.steps;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
+import finalProject.models.ProductModel;
 import finalProject.pages.ProductSelectionPage;
 
 public class ProductSelectionSteps {
+    ProductModel productModel = new ProductModel();
     ProductSelectionPage selectionPage = new ProductSelectionPage();
 
 
@@ -22,7 +24,7 @@ public class ProductSelectionSteps {
 
     @And("^Select a product and click on it$")
     public void productSelection() {
-        selectionPage.selectProduct();
+        selectionPage.selectProduct(productModel.getProductName());
 
     }
 

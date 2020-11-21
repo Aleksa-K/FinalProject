@@ -1,9 +1,12 @@
 package finalProject.pages;
 
 
+import com.codeborne.selenide.Condition;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 
 
+import static com.codeborne.selenide.Selectors.*;
 import static com.codeborne.selenide.Selenide.*;
 
 public class ProductSelectionPage {
@@ -25,10 +28,11 @@ public class ProductSelectionPage {
     }
 
 
-    public void selectProduct() {
-        $$(By.xpath("//div[@class='gtm-categories new-product-hover']")).get(5).scrollTo();
+    public void selectProduct(String productName) {
+        $$(By.xpath("//span[@class='item-price']")).get(0).scrollTo();
         sleep(1000);
-        $(By.linkText("Apple Watch SE GPS 40mm Silver Aluminum White Sport Band")).hover().click();
+        $(By.linkText(productName)).hover().click();
+        sleep(1000);
 
     }
 }
