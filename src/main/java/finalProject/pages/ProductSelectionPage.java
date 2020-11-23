@@ -10,7 +10,7 @@ public class ProductSelectionPage {
     public void brandSelection() {
         $$(By.xpath("//div[@class='filter-block filter-block-collapse active']")).get(1).scrollTo();
         sleep(1000);
-        $$(By.xpath("//span[@class='filter-link__label']")).get(11).click();
+        $$(By.xpath("//span[@class='filter-link__label']")).get(12).click();
 
 
     }

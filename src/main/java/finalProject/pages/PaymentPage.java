@@ -20,7 +20,7 @@ public class PaymentPage {
 
     public void priceAssertion() {
 
-        $(By.xpath("//span[@class='checkout-order-summary-total__price']")).shouldHave(Condition.text("429,00 €"));
+        $(By.xpath("//span[@class='checkout-order-summary-total__price']")).shouldHave(Condition.text("299,00 €"));
     }
 
     public void validateAPage() {

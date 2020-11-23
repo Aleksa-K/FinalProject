@@ -19,6 +19,7 @@ public class ShippingPage {
 
     public void pressGoButton() {
         $(By.xpath("//button[@class='main-button upcase fr small-radius button-min-width checkout-shipping-continue-button']")).scrollTo().click();
+        sleep(1000);
     }
 
 
