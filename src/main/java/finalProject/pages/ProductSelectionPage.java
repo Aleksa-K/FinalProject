@@ -18,7 +18,7 @@ public class ProductSelectionPage {
     public void mostPopularProduct() {
         $$(By.xpath("//div[@class='filter-block filter-block-collapse active']")).get(0).scrollTo();
         sleep(1000);
-        $$(By.xpath("//span[@class='filter-link__label']")).get(4).click();
+        $$(By.xpath("//span[@class='filter-link__label']")).get(5).click();
 
 
     }
